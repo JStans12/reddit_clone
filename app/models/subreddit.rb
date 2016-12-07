@@ -1,12 +1,13 @@
 class Subreddit
+  attr_reader :name
 
-  def initialize(attributes={})
-    binding.pry
+  def initialize(name)
+    @name = name
   end
 
-  def self.by_user(user)
-    RedditService.subreddits.map do |subreddit|
-      Subreddit.new(subreddit[:data])
+  def self.by_user(token)
+    RedditServices.new(token).subreddits.map do |subreddit|
+      Subreddit.new(subreddit[:data][:display_name])
     end
   end
 end
