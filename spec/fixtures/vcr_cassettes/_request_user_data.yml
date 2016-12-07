@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://oauth.reddit.com/api/v1/me
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - bearer hv3sR5EpU6bZ_9YZmvgSSuV98ew
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Expires:
+      - "-1"
+      Cache-Control:
+      - private, s-maxage=0, max-age=0, must-revalidate, max-age=0, must-revalidate
+      X-Ratelimit-Remaining:
+      - '598.0'
+      X-Ratelimit-Used:
+      - '2'
+      X-Ratelimit-Reset:
+      - '407'
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '716'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Wed, 07 Dec 2016 20:53:13 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-ord1723-ORD
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481143993.134247,VS0,VE50
+      Vary:
+      - accept-encoding
+      Set-Cookie:
+      - loid=KsX2pkrdysT0Co11ni; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loidcreated=1481143993000; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      Server:
+      - snooserv
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_employee": false, "name": "jstans12_dev", "created": 1481004448.0,
+        "hide_from_robots": false, "is_suspended": false, "created_utc": 1480975648.0,
+        "link_karma": 1, "in_beta": false, "comment_karma": 0, "features": {"youtube_scraper":
+        true, "show_new_icons": true, "live_happening_now": true, "adserver_reporting":
+        true, "ads_auto_refund": true, "mweb_xpromo_interstitial_listing_android":
+        {"variant": "control_2", "experiment_id": 100}, "mobile_web_targeting": true,
+        "ads_auction": true, "adzerk_do_not_track": true, "sticky_comments": true,
+        "upgrade_cookies": true, "ads_prefs": true, "mweb_xpromo_interstitial_listing_ios":
+        {"variant": "control_1", "experiment_id": 101}, "legacy_search_pref": true,
+        "orangereds_as_emails": true, "mweb_xpromo_interstitial_fp_ios": {"variant":
+        "control_2", "experiment_id": 99}, "imgur_gif_conversion": true, "expando_events":
+        true, "eu_cookie_policy": true, "programmatic_ads": true, "force_https": true,
+        "mobile_native_banner": true, "do_not_track": true, "outbound_clicktracking":
+        true, "image_uploads": true, "new_loggedin_cache_policy": true, "https_redirect":
+        true, "screenview_events": true, "pause_ads": true, "give_hsts_grants": true,
+        "new_report_dialog": true, "moat_tracking": true, "subreddit_rules": true,
+        "timeouts": true, "mobile_settings": true, "adzerk_reporting_2": true, "activity_service_write":
+        true, "ads_auto_extend": true, "interest_targeting": true, "post_embed": true,
+        "scroll_events": true, "mweb_xpromo_interstitial_fp_android": {"variant":
+        "control_2", "experiment_id": 98}, "adblock_test": true, "activity_service_read":
+        true}, "over_18": false, "is_gold": false, "is_mod": false, "id": "13ccy1",
+        "gold_expiration": null, "inbox_count": 0, "has_verified_email": false, "gold_creddits":
+        0, "suspension_expiration_utc": null}'
+    http_version: 
+  recorded_at: Wed, 07 Dec 2016 20:53:13 GMT
+recorded_with: VCR 3.0.3
