@@ -1,4 +1,4 @@
-class RedditMeService
+class RedditServices
 
   def self.request_user_data(tokens)
     oauth_connection = Faraday.new("https://oauth.reddit.com")

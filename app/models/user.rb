@@ -5,6 +5,7 @@ class User < ApplicationRecord
     user.username = user_data["name"]
     user.token = tokens[:token]
     user.refresh_token = tokens[:refresh_token]
+    user.karma = user_data["karma"]
     user.save
     user
   end
