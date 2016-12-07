@@ -9,6 +9,12 @@ class RedditServices
     JSON.parse(user_data.body, symbolize_names: true)
   end
 
+  def subreddits
+    response = connection.get("/subreddits/mine/subscriber?limit=10")
+    subreddits = JSON.parse(response.body, symbolize_names: true)
+    subreddits[:data][:children]
+  end
+
   private
 
     def connection
