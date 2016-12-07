@@ -1,4 +1,5 @@
 class SessionsController < ApplicationController
+
   def create
     if session[:reddit_state] = params[:state]
 
@@ -12,5 +13,10 @@ class SessionsController < ApplicationController
     else
       render file: 'public/404', layout: false
     end
+  end
+
+  def destroy
+    session.delete(:user_id)
+    redirect_to root_path
   end
 end
