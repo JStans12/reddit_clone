@@ -1,0 +1,118 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.reddit.com/r/iama/about/rules.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Reddit-Tracking, X-Moose
+      X-Reddit-Tracking:
+      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=fzRlXqtkAiR2N9bAKkqczW4eaf5tAmohXe9wbji7i3hbrtydHTHZzkbJcJ1aXJd%2FQri%2BDsF8%2FZo%3D
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '882'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 08 Dec 2016 16:28:30 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-ord1737-ORD
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481214510.864440,VS0,VE50
+      Vary:
+      - accept-encoding
+      Set-Cookie:
+      - loid=FylX1xPCmaVMF02aCF; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loidcreated=1481214510000; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      Server:
+      - snooserv
+    body:
+      encoding: ASCII-8BIT
+      string: '{"rules": [{"kind": "link", "description": "The point of proof is to
+        connect who you are with the username you are using to host the AMA. All proof
+        must tend to show that the person behind the username is the person they claim
+        to be.\n", "short_name": "All posts must contain proof", "created_utc": 1454017092.0,
+        "priority": 0, "description_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;The
+        point of proof is to connect who you are with the username you are using to
+        host the AMA. All proof must tend to show that the person behind the username
+        is the person they claim to be.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;"},
+        {"kind": "link", "description": "AMAs must be about: Something uncommon that
+        plays a central role in your life, or a truly interesting and unique event.",
+        "short_name": "Topics must follow IAmA guidelines", "created_utc": 1454017159.0,
+        "priority": 1, "description_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;AMAs
+        must be about: Something uncommon that plays a central role in your life,
+        or a truly interesting and unique event.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON
+        --&gt;"}, {"kind": "link", "description": "In the text of the request post,
+        please include 5 or more specific questions for the person you would like
+        to have an AMA from. ", "short_name": "Requests must have five questions",
+        "created_utc": 1454017208.0, "priority": 2, "description_html": "&lt;!-- SC_OFF
+        --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;In the text of the request post, please
+        include 5 or more specific questions for the person you would like to have
+        an AMA from. &lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;"}, {"kind": "link",
+        "description": "Any request for a celebrity must include a way to publicly
+        contact them", "short_name": "Requests for celebrities need contact information",
+        "created_utc": 1454017240.0, "priority": 3, "description_html": "&lt;!-- SC_OFF
+        --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Any request for a celebrity must include
+        a way to publicly contact them&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;"},
+        {"kind": "comment", "description": "Top-level comments must ask a question",
+        "short_name": "Top-level comments must ask a question", "created_utc": 1454017345.0,
+        "priority": 4, "description_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Top-level
+        comments must ask a question&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;"},
+        {"kind": "comment", "description": "Do not ask for personal favors from an
+        OP", "short_name": "Do not ask for personal favors from an OP", "created_utc":
+        1454017371.0, "priority": 5, "description_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;Do not ask for personal favors from an OP&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;"}, {"kind": "comment", "description": "Users attempting to bypass
+        the rules by adding a ? to a non question will be permanently banned from
+        the subreddit.\n", "short_name": "Do not bypass rules by adding ? to a non-question",
+        "created_utc": 1454017409.0, "priority": 6, "description_html": "&lt;!-- SC_OFF
+        --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Users attempting to bypass the rules
+        by adding a ? to a non question will be permanently banned from the subreddit.&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;"}, {"kind": "comment", "description": "Abusive or harassing comments
+        will be removed", "short_name": "No abusive or harassing comments", "created_utc":
+        1454017429.0, "priority": 7, "description_html": "&lt;!-- SC_OFF --&gt;&lt;div
+        class=\"md\"&gt;&lt;p&gt;Abusive or harassing comments will be removed&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;"}], "site_rules": ["Spam", "Personal and confidential information",
+        "Threatening, harassing, or inciting violence"]}'
+    http_version: 
+  recorded_at: Thu, 08 Dec 2016 16:28:30 GMT
+recorded_with: VCR 3.0.3
