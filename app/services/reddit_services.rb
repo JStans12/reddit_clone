@@ -27,7 +27,7 @@ class RedditServices
   end
 
   def self.rules(url)
-    response = Faraday.get("https://www.reddit.com#{url}/about/rules.json")
+    response = Faraday.get("https://www.reddit.com#{url}about/rules.json")
     rules = JSON.parse(response.body, symbolize_names: true)
     rules[:rules]
   end

@@ -5,7 +5,7 @@ describe Rule do
     it "returns an array of rules for a subreddit" do
       VCR.use_cassette(".subreddit_rules") do
 
-        rules = Rule.subreddit_rules("/r/iama")
+        rules = Rule.subreddit_rules("/r/iama/")
         rule = rules.first
 
         expect(rules).to be_an(Array)

@@ -5,7 +5,7 @@ describe RedditServices do
     it "returns the rules for a subreddit" do
       VCR.use_cassette(".rules") do
 
-        rules = RedditServices.rules("/r/iama")
+        rules = RedditServices.rules("/r/iama/")
         rule = rules.first
 
         expect(rules).to be_an(Array)
