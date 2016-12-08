@@ -1,0 +1,225 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.reddit.com/r/IAMA/about.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Reddit-Tracking, X-Moose
+      X-Reddit-Tracking:
+      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=ZEIlGIO03ZVpXRuD0WhcE1BkPC4SPSGOKg18pFkHriztloivIB8DspaUiEcS6VlC3Oxxj%2BEmRx0%3D
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '3630'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 08 Dec 2016 01:18:22 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-den6027-DEN
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481159902.654840,VS0,VE126
+      Vary:
+      - accept-encoding
+      Set-Cookie:
+      - loid=4s5PR7mVM38Ro3nRum; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loidcreated=1481159902000; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      Server:
+      - snooserv
+    body:
+      encoding: ASCII-8BIT
+      string: '{"kind": "t5", "data": {"banner_img": "http://a.thumbs.redditmedia.com/Je9hJkwwkO_gZblEkMwBK3_MG_laF1_uG5nGd-NEXt4.png",
+        "submit_text_html": null, "user_is_banned": null, "wiki_enabled": true, "show_media":
+        true, "id": "2qzb6", "user_is_contributor": null, "submit_text": "", "display_name":
+        "IAmA", "header_img": "http://d.thumbs.redditmedia.com/3hldoKUAjllXPW8i.png",
+        "description_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;h5&gt;&lt;a
+        href=\"https://goo.gl/GjN173\"&gt;Submit an AMA&lt;/a&gt;&lt;/h5&gt;\n\n&lt;h5&gt;&lt;a
+        href=\"https://goo.gl/NHwneF\"&gt;Request an AMA&lt;/a&gt;&lt;/h5&gt;\n\n&lt;h5&gt;&lt;a
+        href=\"http://nr.reddit.com/r/iama\"&gt;Hide AMA Requests&lt;/a&gt;&lt;/h5&gt;\n\n&lt;h1&gt;Please
+        check out our &lt;a href=\"http://goo.gl/KC0FO\"&gt;Rules and FAQs&lt;/a&gt;&lt;/h1&gt;\n\n&lt;p&gt;&lt;a
+        href=\"https://goo.gl/mlrmKA\"&gt;Click here&lt;/a&gt; to request being added
+        to our calendar.&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"https://goo.gl/cw2y12\"&gt;Click
+        here&lt;/a&gt; to search AMAs by category!&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;AMAs
+        are scheduled in Eastern Time (GMT-5:00).&lt;/strong&gt;&lt;/p&gt;\n\n&lt;table&gt;&lt;thead&gt;\n&lt;tr&gt;\n&lt;th
+        align=\"center\"&gt;Date&lt;/th&gt;\n&lt;th align=\"center\"&gt;Time&lt;/th&gt;\n&lt;th
+        align=\"center\"&gt;Person&lt;/th&gt;\n&lt;th align=\"center\"&gt;Description&lt;/th&gt;\n&lt;/tr&gt;\n&lt;/thead&gt;&lt;tbody&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"center\"&gt;7 Dec&lt;/td&gt;\n&lt;td align=\"center\"&gt;2am&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;Tim Dunn&lt;/td&gt;\n&lt;td align=\"center\"&gt;NASA Launch
+        Director Tim Dunn&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"center\"&gt;7
+        Dec&lt;/td&gt;\n&lt;td align=\"center\"&gt;10am&lt;/td&gt;\n&lt;td align=\"center\"&gt;Professor
+        H.V. Jagadish&lt;/td&gt;\n&lt;td align=\"center\"&gt;Professor: University
+        of Michigan&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"center\"&gt;7
+        Dec&lt;/td&gt;\n&lt;td align=\"center\"&gt;12pm&lt;/td&gt;\n&lt;td align=\"center\"&gt;Dr
+        Cindy Fast&lt;/td&gt;\n&lt;td align=\"center\"&gt;Dr Cindy Fast: APOPO HeroRATs&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"center\"&gt;8 Dec&lt;/td&gt;\n&lt;td align=\"center\"&gt;1pm&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;Jesse Leach&lt;/td&gt;\n&lt;td align=\"center\"&gt;Lead
+        singer of band Killswitch Engage.&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"center\"&gt;8 Dec&lt;/td&gt;\n&lt;td align=\"center\"&gt;4pm&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;Seth Orme with Packing It Out&lt;/td&gt;\n&lt;td align=\"center\"&gt;Activist
+        who cleaned up the entire PCT&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"center\"&gt;8 Dec&lt;/td&gt;\n&lt;td align=\"center\"&gt;5pm&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;Austin Walker&lt;/td&gt;\n&lt;td align=\"center\"&gt;Editor-in-Chief
+        of Waypoint&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"center\"&gt;9
+        Dec&lt;/td&gt;\n&lt;td align=\"center\"&gt;12pm&lt;/td&gt;\n&lt;td align=\"center\"&gt;Grant
+        Imahara&lt;/td&gt;\n&lt;td align=\"center\"&gt;Mythbuster&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"center\"&gt;11 Dec&lt;/td&gt;\n&lt;td align=\"center\"&gt;10am&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;Dmitry Glukhovsky&lt;/td&gt;\n&lt;td align=\"center\"&gt;Author
+        of Metro 2033: Dmitry Glukhovsky&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"center\"&gt;12 Dec&lt;/td&gt;\n&lt;td align=\"center\"&gt;12pm&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;Kari Byron&lt;/td&gt;\n&lt;td align=\"center\"&gt;Mythbuster&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"center\"&gt;12 Dec&lt;/td&gt;\n&lt;td align=\"center\"&gt;3pm&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;Bill Cooke, Rhiannon Blaauw, Danielle Moser&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;NASA Scientists&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td
+        align=\"center\"&gt;13 Dec&lt;/td&gt;\n&lt;td align=\"center\"&gt;3pm&lt;/td&gt;\n&lt;td
+        align=\"center\"&gt;&lt;a href=\"https://en.wikipedia.org/wiki/Harvey_Karp\"&gt;Dr.
+        Harvey Karp&lt;/a&gt;&lt;/td&gt;\n&lt;td align=\"center\"&gt;Pediatrician
+        and author&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"center\"&gt;14
+        Dec&lt;/td&gt;\n&lt;td align=\"center\"&gt;2pm&lt;/td&gt;\n&lt;td align=\"center\"&gt;Gary
+        Shapiro&lt;/td&gt;\n&lt;td align=\"center\"&gt;President/CEO, CTA, producer
+        of CES&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"center\"&gt;14
+        Dec&lt;/td&gt;\n&lt;td align=\"center\"&gt;2pm&lt;/td&gt;\n&lt;td align=\"center\"&gt;The
+        NBCUniversal Pages&lt;/td&gt;\n&lt;td align=\"center\"&gt;Real Life Versions
+        of 30 Rock&amp;#39;s Kenneth&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td align=\"center\"&gt;16
+        Dec&lt;/td&gt;\n&lt;td align=\"center\"&gt;12pm&lt;/td&gt;\n&lt;td align=\"center\"&gt;Tory
+        Belleci&lt;/td&gt;\n&lt;td align=\"center\"&gt;Mythbuster&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/tbody&gt;&lt;/table&gt;\n\n&lt;h1&gt;&lt;a
+        href=\"https://goo.gl/FNOlc4\"&gt;see more...&lt;/a&gt;&lt;/h1&gt;\n\n&lt;hr/&gt;\n\n&lt;h1&gt;Submitting:&lt;/h1&gt;\n\n&lt;h2&gt;AMAs
+        should be about:&lt;/h2&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Something uncommon that
+        plays a central role in your life, or&lt;/li&gt;\n&lt;li&gt;A truly interesting
+        and unique event.&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://goo.gl/8qJQFw\"&gt;Explanation
+        and examples of this rule can be found here&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;All
+        AMAs require proof.&lt;/h2&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Proof should be included
+        in the text of the post when you start your AMA. If it must remain confidential,
+        you can &lt;a href=\"https://goo.gl/wH5XJU\"&gt;message it to the moderators&lt;/a&gt;
+        and we can verify you.&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://goo.gl/M5pp3E\"&gt;See
+        here for tips concerning proof and examples&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h2&gt;Request
+        threads&lt;/h2&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Requests must be reasonable and
+        realistic. All requests must have 5 questions for the person being requested.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Requests
+        for celebrities must contain their public contact info in the body of the
+        request.&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://goo.gl/nT6yXx\"&gt;See
+        here for information about requests&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h1&gt;Commenting:&lt;/h1&gt;\n\n&lt;h2&gt;Please
+        note:&lt;/h2&gt;\n\n&lt;ul&gt;\n&lt;li&gt;All initial responses to posters
+        must contain a properly punctuated question.&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;Attempting
+        to bypass this rule by adding a ? to a non question will result in a permanent
+        ban.&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://goo.gl/ydxSDY\"&gt;See
+        more on our comment removals policy here&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;h1&gt;Other:&lt;/h1&gt;\n\n&lt;h2&gt;Useful
+        Links!&lt;/h2&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Email us at &lt;a href=\"mailto:mods@iamaofficial.com\"&gt;mods@iamaofficial.com&lt;/a&gt;!&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"https://goo.gl/ZZgLmS\"&gt;Step-by-step guide to doing an AMA&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a
+        href=\"https://www.reddit.com/r/iama/about/traffic\"&gt;Our Traffic and Visitor
+        Stats&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://goo.gl/YAnv9W\"&gt;Related
+        subreddits&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"https://goo.gl/zU6PQ\"&gt;Follow
+        us on Twitter&lt;/a&gt; or &lt;a href=\"https://www.facebook.com/redditIAmA/\"&gt;Like
+        us on Facebook!&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;hr/&gt;\n\n&lt;blockquote&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;6
+        Jun&lt;/strong&gt;&lt;br/&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;&lt;a href=\"https://redd.it/4mirin\"&gt;Anti-Poaching
+        Pilot/IT Guy&lt;/a&gt;&lt;/strong&gt; Specialized Profession&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;27
+        Jul&lt;/strong&gt;&lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;&lt;a href=\"https://redd.it/4uuxn3\"&gt;Vacuum
+        Repair Man&lt;/a&gt;&lt;/strong&gt; Specialized Profession&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;8
+        Jun&lt;/strong&gt; &lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;&lt;a href=\"https://redd.it/4n2nkt\"&gt;Plastic
+        Surgeon&lt;/a&gt;&lt;/strong&gt; Medical&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;5
+        Jul&lt;/strong&gt; &lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;&lt;a href=\"https://redd.it/4red1n\"&gt;NASA
+        Juno Project&lt;/a&gt;&lt;/strong&gt; Science&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;strong&gt;9
+        Apr&lt;/strong&gt; &lt;/li&gt;\n&lt;li&gt;&lt;strong&gt;&lt;a href=\"https://redd.it/4dxfoy\"&gt;Former
+        CIA Case Officer&lt;/a&gt;&lt;/strong&gt; Military&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/blockquote&gt;\n\n&lt;h6&gt;&lt;a
+        href=\"https://goo.gl/5FM2R6\"&gt;Facebook&lt;/a&gt;&lt;a href=\"https://goo.gl/kqOwT\"&gt;Twitter&lt;/a&gt;&lt;a
+        href=\"https://goo.gl/I9GGAr\"&gt;Instagram&lt;/a&gt;&lt;a href=\"https://goo.gl/r0VuI\"&gt;Google
+        Calendar&lt;/a&gt;&lt;/h6&gt;\n\n&lt;h4&gt;Please check out our &lt;a href=\"https://goo.gl/KC0FO\"&gt;Rules
+        and FAQs&lt;/a&gt;&lt;/h4&gt;\n\n&lt;p&gt;&lt;a href=\"#/RES_SR_Config/NightModeCompatible\"&gt;&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "title": "I Am A, where the mundane becomes fascinating and
+        the outrageous suddenly seems normal.", "collapse_deleted_comments": false,
+        "public_description": "", "over18": false, "public_description_html": null,
+        "icon_size": [256, 256], "suggested_comment_sort": null, "icon_img": "http://b.thumbs.redditmedia.com/RqqzLNmhb6ZtUQF9iflcJNHaz3ox3lzfPa_IVsZ3dJY.png",
+        "header_title": "IAmA Alt Text, AMA!", "description": "#####[Submit an AMA](https://goo.gl/GjN173)\r\n#####[Request
+        an AMA](https://goo.gl/NHwneF)\r\n#####[Hide AMA Requests](http://nr.reddit.com/r/iama)\r\n\r\n#
+        Please check out our [Rules and FAQs](http://goo.gl/KC0FO)\r\n\r\n[Click here](https://goo.gl/mlrmKA)
+        to request being added to our calendar.\r\n\r\n[Click here](https://goo.gl/cw2y12)
+        to search AMAs by category!\r\n\r\n\r\n\r\n**AMAs are scheduled in Eastern
+        Time (GMT-5:00).**\r\n\r\nDate|Time|Person|Description\r\n:-:|:-:|:-:|:-:\r\n7
+        Dec|2am|Tim Dunn|NASA Launch Director Tim Dunn\n7 Dec|10am|Professor H.V.
+        Jagadish|Professor: University of Michigan\n7 Dec|12pm|Dr Cindy Fast|Dr Cindy
+        Fast: APOPO HeroRATs\n8 Dec|1pm|Jesse Leach|Lead singer of band Killswitch
+        Engage.\n8 Dec|4pm|Seth Orme with Packing It Out|Activist who cleaned up the
+        entire PCT\n8 Dec|5pm|Austin Walker|Editor-in-Chief of Waypoint\n9 Dec|12pm|Grant
+        Imahara|Mythbuster\n11 Dec|10am|Dmitry Glukhovsky|Author of Metro 2033: Dmitry
+        Glukhovsky\n12 Dec|12pm|Kari Byron|Mythbuster\n12 Dec|3pm|Bill Cooke, Rhiannon
+        Blaauw, Danielle Moser|NASA Scientists\n13 Dec|3pm|[Dr. Harvey Karp](https://en.wikipedia.org/wiki/Harvey_Karp)|Pediatrician
+        and author\n14 Dec|2pm|Gary Shapiro|President/CEO, CTA, producer of CES\n14
+        Dec|2pm|The NBCUniversal Pages|Real Life Versions of 30 Rock''s Kenneth\n16
+        Dec|12pm|Tory Belleci|Mythbuster\n\r\n\r\n# [see more...](https://goo.gl/FNOlc4)\r\n\r\n---\r\n\r\n#
+        Submitting:\r\n\r\n## AMAs should be about:\r\n* Something uncommon that plays
+        a central role in your life, or\r\n* A truly interesting and unique event.\r\n*
+        [Explanation and examples of this rule can be found here](https://goo.gl/8qJQFw)\r\n\r\n##
+        All AMAs require proof.\r\n* Proof should be included in the text of the post
+        when you start your AMA. If it must remain confidential, you can [message
+        it to the moderators](https://goo.gl/wH5XJU) and we can verify you.\r\n* [See
+        here for tips concerning proof and examples](https://goo.gl/M5pp3E)\r\n\r\n##
+        Request threads\r\n* Requests must be reasonable and realistic. All requests
+        must have 5 questions for the person being requested.\r\n* **Requests for
+        celebrities must contain their public contact info in the body of the request.**\r\n*
+        [See here for information about requests](https://goo.gl/nT6yXx)\r\n\r\n#
+        Commenting:\r\n\r\n## Please note:\r\n* All initial responses to posters must
+        contain a properly punctuated question.\r\n* **Attempting to bypass this rule
+        by adding a ? to a non question will result in a permanent ban.**\r\n* [See
+        more on our comment removals policy here](https://goo.gl/ydxSDY)\r\n\r\n#
+        Other:\r\n\r\n## Useful Links!\r\n* Email us at mods@iamaofficial.com!\r\n*
+        [Step-by-step guide to doing an AMA](https://goo.gl/ZZgLmS)\r\n* [Our Traffic
+        and Visitor Stats](https://www.reddit.com/r/iama/about/traffic)\r\n* [Related
+        subreddits](https://goo.gl/YAnv9W)\r\n* [Follow us on Twitter](https://goo.gl/zU6PQ)
+        or [Like us on Facebook!](https://www.facebook.com/redditIAmA/)\r\n\r\n---\r\n\r\n\r\n&gt;*
+        **6 Jun**  \r\n&gt;* **[Anti-Poaching Pilot/IT Guy](https://redd.it/4mirin)**
+        Specialized Profession\r\n&gt;\r\n&gt;\r\n&gt;#\r\n&gt;* **27 Jul**\r\n&gt;*
+        **[Vacuum Repair Man](https://redd.it/4uuxn3)** Specialized Profession\r\n&gt;\r\n&gt;\r\n&gt;#\r\n&gt;*
+        **8 Jun** \r\n&gt;* **[Plastic Surgeon](https://redd.it/4n2nkt)** Medical\r\n&gt;\r\n&gt;\r\n&gt;#\r\n&gt;*
+        **5 Jul** \r\n&gt;* **[NASA Juno Project](https://redd.it/4red1n)** Science\r\n&gt;\r\n#\r\n&gt;*
+        **9 Apr** \r\n&gt;* **[Former CIA Case Officer](https://redd.it/4dxfoy)**
+        Military\r\n&gt;\r\n&gt;\r\n\r\n\r\n######[Facebook](https://goo.gl/5FM2R6)[Twitter](https://goo.gl/kqOwT)[Instagram](https://goo.gl/I9GGAr)[Google
+        Calendar](https://goo.gl/r0VuI)\r\n\r\n#### Please check out our [Rules and
+        FAQs](https://goo.gl/KC0FO)\r\n\r\n[](#/RES_SR_Config/NightModeCompatible)",
+        "user_is_muted": null, "submit_link_label": null, "accounts_active": 2464,
+        "public_traffic": true, "header_size": [340, 42], "subscribers": 13978563,
+        "submit_text_label": null, "lang": "en", "key_color": "", "name": "t5_2qzb6",
+        "created": 1243497365.0, "url": "/r/IAmA/", "quarantine": false, "hide_ads":
+        false, "created_utc": 1243468565.0, "banner_size": [1280, 384], "user_is_moderator":
+        null, "user_sr_theme_enabled": true, "show_media_preview": true, "comment_score_hide_mins":
+        0, "subreddit_type": "public", "submission_type": "self", "user_is_subscriber":
+        null}}'
+    http_version: 
+  recorded_at: Thu, 08 Dec 2016 01:18:22 GMT
+recorded_with: VCR 3.0.3

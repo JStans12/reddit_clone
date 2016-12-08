@@ -15,6 +15,11 @@ class RedditServices
     subreddits[:data][:children]
   end
 
+  def subreddit_by_name(name)
+    response = Faraday.get("https://www.reddit.com/r/#{name}/about.json")
+    JSON.parse(response.body, symbolize_names: true)
+  end
+
   private
 
     def connection

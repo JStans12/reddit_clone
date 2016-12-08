@@ -9,7 +9,7 @@ class SessionsController < ApplicationController
 
       session[:user_id] = user.id
 
-      redirect_to root_path
+      redirect_to dashboard_path
     else
       render file: 'public/404', layout: false
     end
