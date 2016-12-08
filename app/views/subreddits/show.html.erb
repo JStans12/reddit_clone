@@ -1,4 +1,11 @@
-<% @posts.each do |post| %>
-  <%= link_to post.title, post.url %>
-  <br>
-<% end %>
+<div>
+  <% @posts.each do |post| %>
+    <%= link_to "(#{post.ups}) #{post.title}", post.url %>
+    <br>
+  <% end %>
+</div>
+
+<div>
+  <h3> Subreddit Rules </h3>
+
+</div>

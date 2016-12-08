@@ -13,6 +13,10 @@ class Post
     @data[:title]
   end
 
+  def ups
+    @data[:ups]
+  end
+
   def self.top_posts(url)
     RedditServices.top_posts(url).map do |post|
       Post.new(post[:data])
