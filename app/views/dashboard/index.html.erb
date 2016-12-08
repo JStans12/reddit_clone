@@ -1,4 +1,7 @@
-<% @subreddits.each do |subreddit| %>
-  <%=link_to subreddit, "/subreddit/#{subreddit}" %>
-  <br>
-<% end %>
+<div class="col-md-4">
+  <h2>My Subs</h2>
+  <% @subreddits.each do |subreddit| %>
+    <%=link_to subreddit, "/subreddit/#{subreddit}" %>
+    <br>
+  <% end %>
+</div>
