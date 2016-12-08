@@ -10,7 +10,7 @@ http_interactions:
       User-Agent:
       - Faraday v0.9.2
       Authorization:
-      - bearer hv3sR5EpU6bZ_9YZmvgSSuV98ew
+      - bearer eI7TJu_yMoh66NP7SmZJC6yKctc
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -33,11 +33,11 @@ http_interactions:
       Cache-Control:
       - private, s-maxage=0, max-age=0, must-revalidate, max-age=0, must-revalidate
       X-Ratelimit-Remaining:
-      - '598.0'
+      - '595.0'
       X-Ratelimit-Used:
-      - '2'
+      - '5'
       X-Ratelimit-Reset:
-      - '407'
+      - '98'
       X-Moose:
       - majestic
       Strict-Transport-Security:
@@ -47,24 +47,24 @@ http_interactions:
       Accept-Ranges:
       - bytes
       Date:
-      - Wed, 07 Dec 2016 20:53:13 GMT
+      - Thu, 08 Dec 2016 01:38:22 GMT
       Via:
       - 1.1 varnish
       Connection:
       - keep-alive
       X-Served-By:
-      - cache-ord1723-ORD
+      - cache-den6024-DEN
       X-Cache:
       - MISS
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1481143993.134247,VS0,VE50
+      - S1481161102.681082,VS0,VE94
       Vary:
       - accept-encoding
       Set-Cookie:
-      - loid=KsX2pkrdysT0Co11ni; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
-      - loidcreated=1481143993000; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loid=nVo3RKH8uut06hnq8G; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loidcreated=1481161102000; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
       Server:
       - snooserv
     body:
@@ -93,5 +93,5 @@ http_interactions:
         "gold_expiration": null, "inbox_count": 0, "has_verified_email": false, "gold_creddits":
         0, "suspension_expiration_utc": null}'
     http_version: 
-  recorded_at: Wed, 07 Dec 2016 20:53:13 GMT
+  recorded_at: Thu, 08 Dec 2016 01:38:22 GMT
 recorded_with: VCR 3.0.3

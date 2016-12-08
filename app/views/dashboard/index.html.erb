@@ -1,4 +1,4 @@
 <% @subreddits.each do |subreddit| %>
-  <%= subreddit.name %>
+  <%=link_to subreddit, "/subreddit/#{subreddit}" %>
   <br>
 <% end %>

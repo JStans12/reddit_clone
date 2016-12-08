@@ -1,5 +1,6 @@
 class SubredditsController < ApplicationController
-  def index
-    @subreddits = Subreddit.my_subs(current_user.token)
+  def show
+    @subreddit = Subreddit.by_name(params[:subreddit])
+    @posts = Post.top_posts(@subreddit.data[:url])
   end
 end

@@ -1,0 +1,888 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.reddit.com/r/climbing.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Ua-Compatible:
+      - IE=edge
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Reddit-Tracking, X-Moose
+      X-Reddit-Tracking:
+      - https://pixel.redditmedia.com/pixel/of_destiny.png?v=rx%2BrSYTfjiECSIHKaJLcLu9gl9wCw%2BM9f4hchrkalulDXr50ESCNUXj57%2BHAdR0rnF0D65sKVUg%3D
+      Cache-Control:
+      - max-age=0, must-revalidate
+      X-Moose:
+      - majestic
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Content-Length:
+      - '15630'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 08 Dec 2016 15:51:54 GMT
+      Via:
+      - 1.1 varnish
+      Connection:
+      - keep-alive
+      X-Served-By:
+      - cache-ord1745-ORD
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1481212314.429625,VS0,VE442
+      Vary:
+      - accept-encoding
+      Set-Cookie:
+      - loid=tlxHkqT4odoxmuOfrK; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      - loidcreated=1481212314000; Domain=reddit.com; Max-Age=63071999; Path=/;  secure
+      Server:
+      - snooserv
+    body:
+      encoding: ASCII-8BIT
+      string: '{"kind": "Listing", "data": {"modhash": "", "children": [{"kind": "t3",
+        "data": {"contest_mode": false, "banned_by": null, "domain": "self.climbing",
+        "subreddit": "climbing", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Please
+        sort comments by &amp;#39;new&amp;#39; to find questions that would otherwise
+        be buried.&lt;/p&gt;\n\n&lt;p&gt;In this thread you can ask any climbing related
+        question that you may have. Dont be discouraged to ask here on the weekend
+        just because it&amp;#39;s called &amp;quot;friday&amp;quot; new climber thread.
+        This thread usually sees traffic until at least monday, there&amp;#39;s a
+        good chance your question will be answered.&lt;/p&gt;\n\n&lt;p&gt;Two examples
+        of potential questions could be; &amp;quot;How do I get stronger?&amp;quot;,
+        or &amp;quot;How to select my first harness?&amp;quot;&lt;/p&gt;\n\n&lt;p&gt;If
+        you see a new climber related question posted in another subeddit or in this
+        subreddit, then please politely link them to this thread.&lt;/p&gt;\n\n&lt;p&gt;Ask
+        away!&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext": "Please sort
+        comments by ''new'' to find questions that would otherwise be buried.\n\nIn
+        this thread you can ask any climbing related question that you may have. Dont
+        be discouraged to ask here on the weekend just because it''s called \"friday\"
+        new climber thread. This thread usually sees traffic until at least monday,
+        there''s a good chance your question will be answered.\n\nTwo examples of
+        potential questions could be; \"How do I get stronger?\", or \"How to select
+        my first harness?\"\n\nIf you see a new climber related question posted in
+        another subeddit or in this subreddit, then please politely link them to this
+        thread.\n\nAsk away!\n", "likes": null, "suggested_sort": "new", "user_reports":
+        [], "secure_media": null, "saved": false, "id": "5g39hm", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "AutoModerator", "media":
+        null, "name": "t3_5g39hm", "score": 10, "approved_by": null, "over_18": false,
+        "removal_reason": null, "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2qk72", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        "jp", "downs": 0, "mod_reports": [], "archived": false, "media_embed": {},
+        "is_self": true, "hide_score": false, "spoiler": false, "permalink": "/r/climbing/comments/5g39hm/friday_new_climber_thread_for_december_02_2016/",
+        "locked": false, "stickied": true, "created": 1480714388.0, "url": "https://www.reddit.com/r/climbing/comments/5g39hm/friday_new_climber_thread_for_december_02_2016/",
+        "author_flair_text": null, "quarantine": false, "title": "Friday New Climber
+        Thread for December 02, 2016: Ask your questions in this thread please", "created_utc":
+        1480685588.0, "link_flair_text": "All Questions Allowed", "distinguished":
+        "moderator", "num_comments": 228, "visited": false, "num_reports": null, "ups":
+        10}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by": null, "domain":
+        "i.reddituploads.com", "subreddit": "climbing", "selftext_html": null, "selftext":
+        "", "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
+        null, "saved": false, "id": "5h32y3", "gilded": 0, "secure_media_embed": {},
+        "clicked": false, "report_reasons": null, "author": "anothercoolusername",
+        "media": null, "name": "t3_5h32y3", "score": 525, "approved_by": null, "over_18":
+        false, "removal_reason": null, "hidden": false, "preview": {"images": [{"source":
+        {"url": "https://i.redditmedia.com/Dka5Xl1E4u2wX7JA6RmJxZi_0cX3CtHF04pAMd-rkiU.jpg?s=265c870af05f9b34759addeb4a73ad02",
+        "width": 1152, "height": 1536}, "resolutions": [{"url": "https://i.redditmedia.com/Dka5Xl1E4u2wX7JA6RmJxZi_0cX3CtHF04pAMd-rkiU.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=4797016c1cad7805ad500e36a83add9f",
+        "width": 108, "height": 144}, {"url": "https://i.redditmedia.com/Dka5Xl1E4u2wX7JA6RmJxZi_0cX3CtHF04pAMd-rkiU.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=fd17c43b73f67c4b1b7e9713d74b69e2",
+        "width": 216, "height": 288}, {"url": "https://i.redditmedia.com/Dka5Xl1E4u2wX7JA6RmJxZi_0cX3CtHF04pAMd-rkiU.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=e78b4751504c3d9d49cae67f10f60031",
+        "width": 320, "height": 426}, {"url": "https://i.redditmedia.com/Dka5Xl1E4u2wX7JA6RmJxZi_0cX3CtHF04pAMd-rkiU.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=fbb18409bd20ada3d43d992cb62195fb",
+        "width": 640, "height": 853}, {"url": "https://i.redditmedia.com/Dka5Xl1E4u2wX7JA6RmJxZi_0cX3CtHF04pAMd-rkiU.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=e9f631105d817c1e171bcce1158f384d",
+        "width": 960, "height": 1280}, {"url": "https://i.redditmedia.com/Dka5Xl1E4u2wX7JA6RmJxZi_0cX3CtHF04pAMd-rkiU.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=1080&amp;s=7f023be7d9bac82f46989d5f7744c327",
+        "width": 1080, "height": 1440}], "variants": {}, "id": "gIuf0W2posAtHoSe_Ft8rFqqy2QKPMGKA3kFmzbgfRs"}]},
+        "thumbnail": "http://b.thumbs.redditmedia.com/FWPW0AHtDOZft4T8ljYdW4vWpuVtCSrmE1f06hbzlNg.jpg",
+        "subreddit_id": "t5_2qk72", "edited": false, "link_flair_css_class": null,
+        "author_flair_css_class": null, "downs": 0, "mod_reports": [], "archived":
+        false, "media_embed": {}, "post_hint": "link", "is_self": false, "hide_score":
+        false, "spoiler": false, "permalink": "/r/climbing/comments/5h32y3/psa_please_dont_wear_your_climbing_shoes_in_the/",
+        "locked": false, "stickied": false, "created": 1481178964.0, "url": "https://i.reddituploads.com/5324408bd8ee4c9fb6b6dc78c0665e54?fit=max&amp;h=1536&amp;w=1536&amp;s=fb723385ea77578a78c525e607041bda",
+        "author_flair_text": null, "quarantine": false, "title": "PSA: Please don''t
+        wear your climbing shoes in the bathroom.", "created_utc": 1481150164.0, "link_flair_text":
+        null, "distinguished": null, "num_comments": 185, "visited": false, "num_reports":
+        null, "ups": 525}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by":
+        null, "domain": "i.reddituploads.com", "subreddit": "climbing", "selftext_html":
+        null, "selftext": "", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "saved": false, "id": "5h70ma", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "Uberwaltz", "media":
+        null, "name": "t3_5h70ma", "score": 16, "approved_by": null, "over_18": false,
+        "removal_reason": null, "hidden": false, "preview": {"images": [{"source":
+        {"url": "https://i.redditmedia.com/Go4N7ZUAhwzWgSXogI-zZxoylA8W6apE_HUaeLigyHc.jpg?s=03a0eb1b7cba3f92224969433a2a1d7e",
+        "width": 750, "height": 744}, "resolutions": [{"url": "https://i.redditmedia.com/Go4N7ZUAhwzWgSXogI-zZxoylA8W6apE_HUaeLigyHc.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=bf04256f9d430527bc8d88a956390971",
+        "width": 108, "height": 107}, {"url": "https://i.redditmedia.com/Go4N7ZUAhwzWgSXogI-zZxoylA8W6apE_HUaeLigyHc.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=f8a954ebb5e72e49a469c6ba58ea4ae7",
+        "width": 216, "height": 214}, {"url": "https://i.redditmedia.com/Go4N7ZUAhwzWgSXogI-zZxoylA8W6apE_HUaeLigyHc.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=6e4cc74ace6f41385809e1965c699478",
+        "width": 320, "height": 317}, {"url": "https://i.redditmedia.com/Go4N7ZUAhwzWgSXogI-zZxoylA8W6apE_HUaeLigyHc.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=a0f39e1e76983a301b8299a20941a7c8",
+        "width": 640, "height": 634}], "variants": {}, "id": "fUVZAY9R8HACVUyfPgTVzoFCg8GWWH0FhtAR5aaYloI"}]},
+        "thumbnail": "http://b.thumbs.redditmedia.com/GHiJ9p95YwdvufQ6DVcaYM7LMqSoON2Fb9jbQvq_cQg.jpg",
+        "subreddit_id": "t5_2qk72", "edited": false, "link_flair_css_class": null,
+        "author_flair_css_class": null, "downs": 0, "mod_reports": [], "archived":
+        false, "media_embed": {}, "post_hint": "link", "is_self": false, "hide_score":
+        true, "spoiler": false, "permalink": "/r/climbing/comments/5h70ma/crux_clippin_on_the_arete/",
+        "locked": false, "stickied": false, "created": 1481234040.0, "url": "https://i.reddituploads.com/e3c33bf3bc4c436ab35e55de4f3a705e?fit=max&amp;h=1536&amp;w=1536&amp;s=038b123e80f7931a9ac4ac1bb827e962",
+        "author_flair_text": null, "quarantine": false, "title": "Crux clippin on
+        the arete", "created_utc": 1481205240.0, "link_flair_text": null, "distinguished":
+        null, "num_comments": 0, "visited": false, "num_reports": null, "ups": 16}},
+        {"kind": "t3", "data": {"contest_mode": false, "banned_by": null, "domain":
+        "self.climbing", "subreddit": "climbing", "selftext_html": "&lt;!-- SC_OFF
+        --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I wanna get psyched on cool rock climbs
+        around the world! Where&amp;#39;s your favorite 5.11? 5.13? Or 5.7? Sport,
+        trad, multi-pitch all welcome. Even boulders: where&amp;#39;s the best v7
+        etc.?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext": "I wanna get
+        psyched on cool rock climbs around the world! Where''s your favorite 5.11?
+        5.13? Or 5.7? Sport, trad, multi-pitch all welcome. Even boulders: where''s
+        the best v7 etc.?", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "saved": false, "id": "5h7jz6", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "mmeeplechase", "media":
+        null, "name": "t3_5h7jz6", "score": 3, "approved_by": null, "over_18": false,
+        "removal_reason": null, "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2qk72", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "mod_reports": [], "archived": false, "media_embed": {},
+        "is_self": true, "hide_score": true, "spoiler": false, "permalink": "/r/climbing/comments/5h7jz6/just_for_fun_whats_the_best_climb_youve_ever_done/",
+        "locked": false, "stickied": false, "created": 1481240310.0, "url": "https://www.reddit.com/r/climbing/comments/5h7jz6/just_for_fun_whats_the_best_climb_youve_ever_done/",
+        "author_flair_text": null, "quarantine": false, "title": "Just for fun: what''s
+        the best climb you''ve ever done for each grade?", "created_utc": 1481211510.0,
+        "link_flair_text": null, "distinguished": null, "num_comments": 1, "visited":
+        false, "num_reports": null, "ups": 3}}, {"kind": "t3", "data": {"contest_mode":
+        false, "banned_by": null, "domain": "instagram.com", "subreddit": "climbing",
+        "selftext_html": null, "selftext": "", "likes": null, "suggested_sort": null,
+        "user_reports": [], "secure_media": null, "saved": false, "id": "5h0727",
+        "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "jv_ontherocks", "media": null, "name": "t3_5h0727", "score":
+        197, "approved_by": null, "over_18": false, "removal_reason": null, "hidden":
+        false, "preview": {"images": [{"source": {"url": "https://i.redditmedia.com/95hTryYjL1kYTfDT-6pnwAzOyrfmKnHhcgCxeOXm3kQ.jpg?s=ce38f46b83ff286daaccbc587ddded15",
+        "width": 1080, "height": 1349}, "resolutions": [{"url": "https://i.redditmedia.com/95hTryYjL1kYTfDT-6pnwAzOyrfmKnHhcgCxeOXm3kQ.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=53014edae93940798c5c8deb7cca8f1f",
+        "width": 108, "height": 134}, {"url": "https://i.redditmedia.com/95hTryYjL1kYTfDT-6pnwAzOyrfmKnHhcgCxeOXm3kQ.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=a687a4ead7a2f115b228b96a08d62a01",
+        "width": 216, "height": 269}, {"url": "https://i.redditmedia.com/95hTryYjL1kYTfDT-6pnwAzOyrfmKnHhcgCxeOXm3kQ.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=77df39c47b105855368a0ca06103ccd4",
+        "width": 320, "height": 399}, {"url": "https://i.redditmedia.com/95hTryYjL1kYTfDT-6pnwAzOyrfmKnHhcgCxeOXm3kQ.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=6e247bc5fc3997e64fbf82cd43c7f295",
+        "width": 640, "height": 799}, {"url": "https://i.redditmedia.com/95hTryYjL1kYTfDT-6pnwAzOyrfmKnHhcgCxeOXm3kQ.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=6c74838ebd834b9e3e8a1ac0e3541e3f",
+        "width": 960, "height": 1199}, {"url": "https://i.redditmedia.com/95hTryYjL1kYTfDT-6pnwAzOyrfmKnHhcgCxeOXm3kQ.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=1080&amp;s=899e85db92c7581411f91648c84853d4",
+        "width": 1080, "height": 1349}], "variants": {}, "id": "08g2CXFdyVrpMoCSKgT2je_9fZGCB6Lygliq2Oy34Sc"}]},
+        "thumbnail": "http://b.thumbs.redditmedia.com/J0gMXJQ8Rj2u_2Q_vsZdfRTpeJNIkXwPVU3V9P5s3uE.jpg",
+        "subreddit_id": "t5_2qk72", "edited": false, "link_flair_css_class": null,
+        "author_flair_css_class": null, "downs": 0, "mod_reports": [], "archived":
+        false, "media_embed": {}, "post_hint": "link", "is_self": false, "hide_score":
+        false, "spoiler": false, "permalink": "/r/climbing/comments/5h0727/theres_59_and_then_theres_five_nine_moores_wall/",
+        "locked": false, "stickied": false, "created": 1481150198.0, "url": "https://instagram.com/p/BNuCfGdhWLZ/",
+        "author_flair_text": null, "quarantine": false, "title": "There''s 5.9 and
+        then there''s FIVE NINE. Moore''s Wall, NC tends to throw the latter at you",
+        "created_utc": 1481121398.0, "link_flair_text": null, "distinguished": null,
+        "num_comments": 35, "visited": false, "num_reports": null, "ups": 197}}, {"kind":
+        "t3", "data": {"contest_mode": false, "banned_by": null, "domain": "olympicchannel.com",
+        "subreddit": "climbing", "selftext_html": null, "selftext": "", "likes": null,
+        "suggested_sort": null, "user_reports": [], "secure_media": null, "saved":
+        false, "id": "5h4gi2", "gilded": 0, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "climbharder_", "media": null, "name": "t3_5h4gi2",
+        "score": 13, "approved_by": null, "over_18": false, "removal_reason": null,
+        "hidden": false, "preview": {"images": [{"source": {"url": "https://i.redditmedia.com/7ukNIlsEb71EHZ2HOZpfzmnvAf02IANFDnbMv4ThBc4.jpg?s=19b776c524b504195eaa37d53acd1e3f",
+        "width": 1200, "height": 675}, "resolutions": [{"url": "https://i.redditmedia.com/7ukNIlsEb71EHZ2HOZpfzmnvAf02IANFDnbMv4ThBc4.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=4586000a2e2bff41d6c3b7f57fc215e9",
+        "width": 108, "height": 60}, {"url": "https://i.redditmedia.com/7ukNIlsEb71EHZ2HOZpfzmnvAf02IANFDnbMv4ThBc4.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=1ff3596b37f54eb373cfb2cdfc5cad17",
+        "width": 216, "height": 121}, {"url": "https://i.redditmedia.com/7ukNIlsEb71EHZ2HOZpfzmnvAf02IANFDnbMv4ThBc4.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=a93c7e2e5fbf1b25b655058f87e87600",
+        "width": 320, "height": 180}, {"url": "https://i.redditmedia.com/7ukNIlsEb71EHZ2HOZpfzmnvAf02IANFDnbMv4ThBc4.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=c33e6ab747d6db52edb0f0cb240db9af",
+        "width": 640, "height": 360}, {"url": "https://i.redditmedia.com/7ukNIlsEb71EHZ2HOZpfzmnvAf02IANFDnbMv4ThBc4.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=cc3062f83a84f270c1a5616c45094fd1",
+        "width": 960, "height": 540}, {"url": "https://i.redditmedia.com/7ukNIlsEb71EHZ2HOZpfzmnvAf02IANFDnbMv4ThBc4.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=1080&amp;s=a76a706c906a191ef94bc5a8eeb5ad16",
+        "width": 1080, "height": 607}], "variants": {}, "id": "Uz88ibDX8vF0BnYwW8Xe03CG15MarTRmhr-qsM3Fsek"}]},
+        "thumbnail": "http://b.thumbs.redditmedia.com/wRqK9xV3GZREomJQzJ23-6bCPU5mO5UDxSuQoOyVmQw.jpg",
+        "subreddit_id": "t5_2qk72", "edited": false, "link_flair_css_class": null,
+        "author_flair_css_class": null, "downs": 0, "mod_reports": [], "archived":
+        false, "media_embed": {}, "post_hint": "link", "is_self": false, "hide_score":
+        false, "spoiler": false, "permalink": "/r/climbing/comments/5h4gi2/sasha_digiulian_introduces_climbing_as_new/",
+        "locked": false, "stickied": false, "created": 1481194275.0, "url": "https://www.olympicchannel.com/en/playback/new-sport-on-the-block-2020-sport-climbing/",
+        "author_flair_text": null, "quarantine": false, "title": "Sasha Digiulian
+        introduces climbing as new Olympic sport", "created_utc": 1481165475.0, "link_flair_text":
+        null, "distinguished": null, "num_comments": 8, "visited": false, "num_reports":
+        null, "ups": 13}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by":
+        null, "domain": "self.climbing", "subreddit": "climbing", "selftext_html":
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I&amp;#39;ve used The
+        Rubber Room, Rock and Resole, and Flyin&amp;#39; Brian&amp;#39;s over the
+        years, but it&amp;#39;s been a while. &lt;/p&gt;\n\n&lt;p&gt;I need to get
+        a handful of pairs resoled (and one single shoe since I forgot it in the last
+        batch, d&amp;#39;oh), and I&amp;#39;m curious as to who does the best work,
+        from those of you who have had resoles done in more than one place. Grazi!&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "I''ve used The Rubber Room, Rock and Resole, and
+        Flyin'' Brian''s over the years, but it''s been a while. \n\nI need to get
+        a handful of pairs resoled (and one single shoe since I forgot it in the last
+        batch, d''oh), and I''m curious as to who does the best work, from those of
+        you who have had resoles done in more than one place. Grazi!", "likes": null,
+        "suggested_sort": null, "user_reports": [], "secure_media": null, "saved":
+        false, "id": "5h5kls", "gilded": 0, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "halleberrytosis", "media": null, "name":
+        "t3_5h5kls", "score": 6, "approved_by": null, "over_18": false, "removal_reason":
+        null, "hidden": false, "thumbnail": "self", "subreddit_id": "t5_2qk72", "edited":
+        false, "link_flair_css_class": null, "author_flair_css_class": null, "downs":
+        0, "mod_reports": [], "archived": false, "media_embed": {}, "is_self": true,
+        "hide_score": false, "spoiler": false, "permalink": "/r/climbing/comments/5h5kls/climbit_tell_me_your_favorite_resole_company/",
+        "locked": false, "stickied": false, "created": 1481209377.0, "url": "https://www.reddit.com/r/climbing/comments/5h5kls/climbit_tell_me_your_favorite_resole_company/",
+        "author_flair_text": null, "quarantine": false, "title": "Climbit: tell me
+        your favorite resole company!", "created_utc": 1481180577.0, "link_flair_text":
+        null, "distinguished": null, "num_comments": 5, "visited": false, "num_reports":
+        null, "ups": 6}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by":
+        null, "domain": "vimeo.com", "subreddit": "climbing", "selftext_html": null,
+        "selftext": "", "likes": null, "suggested_sort": null, "user_reports": [],
+        "secure_media": {"oembed": {"provider_url": "https://vimeo.com/", "description":
+        "Ice Climbing in the South Fork Valley, Wy on a climb names Curtains. This
+        is usually the first waterfall ice climb to form in the valley. Filmed and
+        edited by Aaron Mulkey Climber- Chris Guyer", "title": "Tis The Season", "type":
+        "video", "thumbnail_width": 1280, "height": 338, "width": 600, "html": "&lt;iframe
+        class=\"embedly-embed\" src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F193982582&amp;url=https%3A%2F%2Fvimeo.com%2F193982582&amp;image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F605828595_1280.jpg&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=vimeo\"
+        width=\"600\" height=\"338\" scrolling=\"no\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;",
+        "author_name": "Aaron Mulkey", "version": "1.0", "provider_name": "Vimeo",
+        "thumbnail_url": "https://i.embed.ly/1/image?url=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F605828595_1280.jpg&amp;key=b1e305db91cf4aa5a86b732cc9fffceb",
+        "thumbnail_height": 720, "author_url": "https://vimeo.com/user2975208"}, "type":
+        "vimeo.com"}, "saved": false, "id": "5h2cji", "gilded": 0, "secure_media_embed":
+        {"content": "&lt;iframe class=\"embedly-embed\" src=\"https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F193982582&amp;url=https%3A%2F%2Fvimeo.com%2F193982582&amp;image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F605828595_1280.jpg&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=vimeo\"
+        width=\"600\" height=\"338\" scrolling=\"no\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;",
+        "width": 600, "scrolling": false, "height": 338}, "clicked": false, "report_reasons":
+        null, "author": "offbelayknife", "media": {"oembed": {"provider_url": "https://vimeo.com/",
+        "description": "Ice Climbing in the South Fork Valley, Wy on a climb names
+        Curtains. This is usually the first waterfall ice climb to form in the valley.
+        Filmed and edited by Aaron Mulkey Climber- Chris Guyer", "title": "Tis The
+        Season", "type": "video", "thumbnail_width": 1280, "height": 338, "width":
+        600, "html": "&lt;iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F193982582&amp;url=https%3A%2F%2Fvimeo.com%2F193982582&amp;image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F605828595_1280.jpg&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=vimeo\"
+        width=\"600\" height=\"338\" scrolling=\"no\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;",
+        "author_name": "Aaron Mulkey", "version": "1.0", "provider_name": "Vimeo",
+        "thumbnail_url": "https://i.vimeocdn.com/video/605828595_1280.jpg", "thumbnail_height":
+        720, "author_url": "https://vimeo.com/user2975208"}, "type": "vimeo.com"},
+        "name": "t3_5h2cji", "score": 35, "approved_by": null, "over_18": false, "removal_reason":
+        null, "hidden": false, "preview": {"images": [{"source": {"url": "https://i.redditmedia.com/Ohquq0Ui10mYSheYfElcwwKjx8Yozs9sL3hDZ6jeC5o.jpg?s=a140864fa5c9bdf7826e3af7aba6dcd1",
+        "width": 1280, "height": 720}, "resolutions": [{"url": "https://i.redditmedia.com/Ohquq0Ui10mYSheYfElcwwKjx8Yozs9sL3hDZ6jeC5o.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=0c6fa31216283d4da4ba188aea662caa",
+        "width": 108, "height": 60}, {"url": "https://i.redditmedia.com/Ohquq0Ui10mYSheYfElcwwKjx8Yozs9sL3hDZ6jeC5o.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=96a0844529e28a1c2a126513848553ca",
+        "width": 216, "height": 121}, {"url": "https://i.redditmedia.com/Ohquq0Ui10mYSheYfElcwwKjx8Yozs9sL3hDZ6jeC5o.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=4a8f4177d93710d1b6cbb7af104526d7",
+        "width": 320, "height": 180}, {"url": "https://i.redditmedia.com/Ohquq0Ui10mYSheYfElcwwKjx8Yozs9sL3hDZ6jeC5o.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=892ca93bb3c6bea79309eeb0b30229de",
+        "width": 640, "height": 360}, {"url": "https://i.redditmedia.com/Ohquq0Ui10mYSheYfElcwwKjx8Yozs9sL3hDZ6jeC5o.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=e98283177d22afeeeee07b357d15346e",
+        "width": 960, "height": 540}, {"url": "https://i.redditmedia.com/Ohquq0Ui10mYSheYfElcwwKjx8Yozs9sL3hDZ6jeC5o.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=1080&amp;s=2ef6f9cf3a326133240b6599f1874b40",
+        "width": 1080, "height": 607}], "variants": {}, "id": "YSCotXHPqPovgPuyMSIxdO3MOJpefh17VOCdMFU6cOQ"}]},
+        "thumbnail": "http://b.thumbs.redditmedia.com/PnPIhFy7klGNo5v2TJrak1uDMHo3qEr3VkuMfeWCbLs.jpg",
+        "subreddit_id": "t5_2qk72", "edited": false, "link_flair_css_class": null,
+        "author_flair_css_class": "maine", "downs": 0, "mod_reports": [], "archived":
+        false, "media_embed": {"content": "&lt;iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fplayer.vimeo.com%2Fvideo%2F193982582&amp;url=https%3A%2F%2Fvimeo.com%2F193982582&amp;image=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F605828595_1280.jpg&amp;key=2aa3c4d5f3de4f5b9120b660ad850dc9&amp;type=text%2Fhtml&amp;schema=vimeo\"
+        width=\"600\" height=\"338\" scrolling=\"no\" frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;",
+        "width": 600, "scrolling": false, "height": 338}, "post_hint": "rich:video",
+        "is_self": false, "hide_score": false, "spoiler": false, "permalink": "/r/climbing/comments/5h2cji/tis_the_season_ice_climbing_in_the_south_fork/",
+        "locked": false, "stickied": false, "created": 1481171750.0, "url": "https://vimeo.com/193982582",
+        "author_flair_text": "", "quarantine": false, "title": "Tis The Season - Ice
+        Climbing in the South Fork Valley, Wy", "created_utc": 1481142950.0, "link_flair_text":
+        null, "distinguished": null, "num_comments": 2, "visited": false, "num_reports":
+        null, "ups": 35}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by":
+        null, "domain": "youtu.be", "subreddit": "climbing", "selftext_html": null,
+        "selftext": "", "likes": null, "suggested_sort": null, "user_reports": [],
+        "secure_media": {"type": "youtube.com", "oembed": {"provider_url": "https://www.youtube.com/",
+        "version": "1.0", "title": "horseshoe canyon ranch montage", "thumbnail_width":
+        480, "height": 338, "width": 600, "html": "&lt;iframe width=\"600\" height=\"338\"
+        src=\"https://www.youtube.com/embed/FNMB50nlyoY?feature=oembed\" frameborder=\"0\"
+        allowfullscreen&gt;&lt;/iframe&gt;", "author_name": "The Outsiders", "provider_name":
+        "YouTube", "thumbnail_url": "https://i.ytimg.com/vi/FNMB50nlyoY/hqdefault.jpg",
+        "type": "video", "thumbnail_height": 360, "author_url": "https://www.youtube.com/channel/UCbdI9hWC2bP5EDSdN2GrFaA"}},
+        "saved": false, "id": "5h7k89", "gilded": 0, "secure_media_embed": {"content":
+        "&lt;iframe width=\"600\" height=\"338\" src=\"https://www.youtube.com/embed/FNMB50nlyoY?feature=oembed\"
+        frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;", "width": 600, "scrolling":
+        false, "height": 338}, "clicked": false, "report_reasons": null, "author":
+        "fakechowing", "media": {"type": "youtube.com", "oembed": {"provider_url":
+        "https://www.youtube.com/", "version": "1.0", "title": "horseshoe canyon ranch
+        montage", "thumbnail_width": 480, "height": 338, "width": 600, "html": "&lt;iframe
+        width=\"600\" height=\"338\" src=\"https://www.youtube.com/embed/FNMB50nlyoY?feature=oembed\"
+        frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;", "author_name": "The
+        Outsiders", "provider_name": "YouTube", "thumbnail_url": "https://i.ytimg.com/vi/FNMB50nlyoY/hqdefault.jpg",
+        "type": "video", "thumbnail_height": 360, "author_url": "https://www.youtube.com/channel/UCbdI9hWC2bP5EDSdN2GrFaA"}},
+        "name": "t3_5h7k89", "score": 1, "approved_by": null, "over_18": false, "removal_reason":
+        null, "hidden": false, "preview": {"images": [{"source": {"url": "https://i.redditmedia.com/9mCZ3OYe0ZEyIkhbOsU0F-fXfH69Us5fJHFq4MdogW8.jpg?s=d090c137f33e02f8dc6f60add2984d14",
+        "width": 480, "height": 360}, "resolutions": [{"url": "https://i.redditmedia.com/9mCZ3OYe0ZEyIkhbOsU0F-fXfH69Us5fJHFq4MdogW8.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=1e85149b176fd75e727d2b5569999bd5",
+        "width": 108, "height": 81}, {"url": "https://i.redditmedia.com/9mCZ3OYe0ZEyIkhbOsU0F-fXfH69Us5fJHFq4MdogW8.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=22b286428cb3b5936436071f62be2a3a",
+        "width": 216, "height": 162}, {"url": "https://i.redditmedia.com/9mCZ3OYe0ZEyIkhbOsU0F-fXfH69Us5fJHFq4MdogW8.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=79db2b07f8704b45c7d32ac3abe13a3d",
+        "width": 320, "height": 240}], "variants": {}, "id": "SBof1s0_KFkcTg8LxsXUjQKpclRd0HH7jv-QA56uydk"}]},
+        "thumbnail": "http://a.thumbs.redditmedia.com/hj3hh67FgXrMKaNCxPvEz_1dEfFRkzn5ZFaBQDnUTZ0.jpg",
+        "subreddit_id": "t5_2qk72", "edited": false, "link_flair_css_class": null,
+        "author_flair_css_class": null, "downs": 0, "mod_reports": [], "archived":
+        false, "media_embed": {"content": "&lt;iframe width=\"600\" height=\"338\"
+        src=\"https://www.youtube.com/embed/FNMB50nlyoY?feature=oembed\" frameborder=\"0\"
+        allowfullscreen&gt;&lt;/iframe&gt;", "width": 600, "scrolling": false, "height":
+        338}, "post_hint": "rich:video", "is_self": false, "hide_score": true, "spoiler":
+        false, "permalink": "/r/climbing/comments/5h7k89/here_is_a_montage_to_horseshoe_canyon_ranch_from/",
+        "locked": false, "stickied": false, "created": 1481240381.0, "url": "https://youtu.be/FNMB50nlyoY",
+        "author_flair_text": null, "quarantine": false, "title": "Here is a montage
+        to horseshoe canyon ranch from 2 weeks ago I just finished editing. Subscribe
+        to our channel on YouTube to stay updated on our adventures. We go by the
+        outsiders.", "created_utc": 1481211581.0, "link_flair_text": null, "distinguished":
+        null, "num_comments": 0, "visited": false, "num_reports": null, "ups": 1}},
+        {"kind": "t3", "data": {"contest_mode": false, "banned_by": null, "domain":
+        "youtu.be", "subreddit": "climbing", "selftext_html": null, "selftext": "",
+        "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
+        {"type": "youtube.com", "oembed": {"provider_url": "https://www.youtube.com/",
+        "title": "TCS 2016 Finale at Sacramento Pipeworks", "type": "video", "html":
+        "&lt;iframe width=\"600\" height=\"338\" src=\"https://www.youtube.com/embed/Qg8xwNWik1s?feature=oembed\"
+        frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;", "thumbnail_width":
+        480, "height": 338, "width": 600, "version": "1.0", "author_name": "Touchstone
+        Climbing and Fitness", "thumbnail_height": 360, "thumbnail_url": "https://i.ytimg.com/vi/Qg8xwNWik1s/hqdefault.jpg",
+        "provider_name": "YouTube", "author_url": "https://www.youtube.com/user/Touchstoneclimb"}},
+        "saved": false, "id": "5h4evs", "gilded": 0, "secure_media_embed": {"content":
+        "&lt;iframe width=\"600\" height=\"338\" src=\"https://www.youtube.com/embed/Qg8xwNWik1s?feature=oembed\"
+        frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;", "width": 600, "scrolling":
+        false, "height": 338}, "clicked": false, "report_reasons": null, "author":
+        "DeltaTheHunter", "media": {"type": "youtube.com", "oembed": {"provider_url":
+        "https://www.youtube.com/", "title": "TCS 2016 Finale at Sacramento Pipeworks",
+        "type": "video", "html": "&lt;iframe width=\"600\" height=\"338\" src=\"https://www.youtube.com/embed/Qg8xwNWik1s?feature=oembed\"
+        frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;", "thumbnail_width":
+        480, "height": 338, "width": 600, "version": "1.0", "author_name": "Touchstone
+        Climbing and Fitness", "thumbnail_height": 360, "thumbnail_url": "https://i.ytimg.com/vi/Qg8xwNWik1s/hqdefault.jpg",
+        "provider_name": "YouTube", "author_url": "https://www.youtube.com/user/Touchstoneclimb"}},
+        "name": "t3_5h4evs", "score": 11, "approved_by": null, "over_18": false, "removal_reason":
+        null, "hidden": false, "preview": {"images": [{"source": {"url": "https://i.redditmedia.com/866vwS8i7l0N0kpj9YqCwHsXR2LSpkJ_gp-a15DQQZA.jpg?s=f1337a06f97f7fb3a7bd7eb8b3da6d6b",
+        "width": 480, "height": 360}, "resolutions": [{"url": "https://i.redditmedia.com/866vwS8i7l0N0kpj9YqCwHsXR2LSpkJ_gp-a15DQQZA.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=3d91a10b77659353ed8f7c287601633b",
+        "width": 108, "height": 81}, {"url": "https://i.redditmedia.com/866vwS8i7l0N0kpj9YqCwHsXR2LSpkJ_gp-a15DQQZA.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=15f416cae575f6de67551fd22caa015c",
+        "width": 216, "height": 162}, {"url": "https://i.redditmedia.com/866vwS8i7l0N0kpj9YqCwHsXR2LSpkJ_gp-a15DQQZA.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=aabad1292bf8b773afe111d9e913ad7e",
+        "width": 320, "height": 240}], "variants": {}, "id": "or3qXyv5Duyocrb7GUcDjUO9HnQGh7kkzewwo7bcmPg"}]},
+        "thumbnail": "http://b.thumbs.redditmedia.com/YvK6XUXR4LL2nWl0Mx6hzjT0muPs5NoQlYhbCRYWiJU.jpg",
+        "subreddit_id": "t5_2qk72", "edited": false, "link_flair_css_class": null,
+        "author_flair_css_class": null, "downs": 0, "mod_reports": [], "archived":
+        false, "media_embed": {"content": "&lt;iframe width=\"600\" height=\"338\"
+        src=\"https://www.youtube.com/embed/Qg8xwNWik1s?feature=oembed\" frameborder=\"0\"
+        allowfullscreen&gt;&lt;/iframe&gt;", "width": 600, "scrolling": false, "height":
+        338}, "post_hint": "rich:video", "is_self": false, "hide_score": false, "spoiler":
+        false, "permalink": "/r/climbing/comments/5h4evs/highlight_reel_from_this_years_local_comp/",
+        "locked": false, "stickied": false, "created": 1481193746.0, "url": "https://youtu.be/Qg8xwNWik1s",
+        "author_flair_text": null, "quarantine": false, "title": "Highlight reel from
+        this years local comp", "created_utc": 1481164946.0, "link_flair_text": null,
+        "distinguished": null, "num_comments": 0, "visited": false, "num_reports":
+        null, "ups": 11}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by":
+        null, "domain": "self.climbing", "subreddit": "climbing", "selftext_html":
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hi all,&lt;/p&gt;\n\n&lt;p&gt;I
+        was wondering if anyone had a good thought for a climbing related gift for
+        my climber friend.&lt;/p&gt;\n\n&lt;p&gt;Thanks!&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "Hi all,\n\nI was wondering if anyone had a good
+        thought for a climbing related gift for my climber friend.\n\nThanks!", "likes":
+        null, "suggested_sort": null, "user_reports": [], "secure_media": null, "saved":
+        false, "id": "5h7aps", "gilded": 0, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "wyndyl", "media": null, "name": "t3_5h7aps",
+        "score": 1, "approved_by": null, "over_18": false, "removal_reason": null,
+        "hidden": false, "thumbnail": "self", "subreddit_id": "t5_2qk72", "edited":
+        false, "link_flair_css_class": null, "author_flair_css_class": null, "downs":
+        0, "mod_reports": [], "archived": false, "media_embed": {}, "is_self": true,
+        "hide_score": true, "spoiler": false, "permalink": "/r/climbing/comments/5h7aps/secret_santa_gift/",
+        "locked": false, "stickied": false, "created": 1481237471.0, "url": "https://www.reddit.com/r/climbing/comments/5h7aps/secret_santa_gift/",
+        "author_flair_text": null, "quarantine": false, "title": "secret santa gift",
+        "created_utc": 1481208671.0, "link_flair_text": null, "distinguished": null,
+        "num_comments": 0, "visited": false, "num_reports": null, "ups": 1}}, {"kind":
+        "t3", "data": {"contest_mode": false, "banned_by": null, "domain": "youtube.com",
+        "subreddit": "climbing", "selftext_html": null, "selftext": "", "likes": null,
+        "suggested_sort": null, "user_reports": [], "secure_media": {"type": "youtube.com",
+        "oembed": {"provider_url": "https://www.youtube.com/", "title": "The First
+        Rule of Climbing: The Barn Door", "html": "&lt;iframe width=\"600\" height=\"338\"
+        src=\"https://www.youtube.com/embed/7EkycT2HoBY?feature=oembed\" frameborder=\"0\"
+        allowfullscreen&gt;&lt;/iframe&gt;", "thumbnail_width": 480, "height": 338,
+        "width": 600, "version": "1.0", "author_name": "Redwall", "thumbnail_height":
+        360, "thumbnail_url": "https://i.ytimg.com/vi/7EkycT2HoBY/hqdefault.jpg",
+        "type": "video", "provider_name": "YouTube", "author_url": "https://www.youtube.com/channel/UCy4LTPnmGik4t5glc0IVyVQ"}},
+        "saved": false, "id": "5h3he8", "gilded": 0, "secure_media_embed": {"content":
+        "&lt;iframe width=\"600\" height=\"338\" src=\"https://www.youtube.com/embed/7EkycT2HoBY?feature=oembed\"
+        frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;", "width": 600, "scrolling":
+        false, "height": 338}, "clicked": false, "report_reasons": null, "author":
+        "Youchoochoochooseme", "media": {"type": "youtube.com", "oembed": {"provider_url":
+        "https://www.youtube.com/", "title": "The First Rule of Climbing: The Barn
+        Door", "html": "&lt;iframe width=\"600\" height=\"338\" src=\"https://www.youtube.com/embed/7EkycT2HoBY?feature=oembed\"
+        frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;", "thumbnail_width":
+        480, "height": 338, "width": 600, "version": "1.0", "author_name": "Redwall",
+        "thumbnail_height": 360, "thumbnail_url": "https://i.ytimg.com/vi/7EkycT2HoBY/hqdefault.jpg",
+        "type": "video", "provider_name": "YouTube", "author_url": "https://www.youtube.com/channel/UCy4LTPnmGik4t5glc0IVyVQ"}},
+        "name": "t3_5h3he8", "score": 12, "approved_by": null, "over_18": false, "removal_reason":
+        null, "hidden": false, "preview": {"images": [{"source": {"url": "https://i.redditmedia.com/8njD9_qp6SWJxgCzdQu7Un37KyJisRu6VPrv6mJSxvI.jpg?s=879001cfd715f50712b313452ca58ee2",
+        "width": 480, "height": 360}, "resolutions": [{"url": "https://i.redditmedia.com/8njD9_qp6SWJxgCzdQu7Un37KyJisRu6VPrv6mJSxvI.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=8225b72a8132ab95f687aecd1195adce",
+        "width": 108, "height": 81}, {"url": "https://i.redditmedia.com/8njD9_qp6SWJxgCzdQu7Un37KyJisRu6VPrv6mJSxvI.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=82892cac99841e8e87c3c6c55d40f626",
+        "width": 216, "height": 162}, {"url": "https://i.redditmedia.com/8njD9_qp6SWJxgCzdQu7Un37KyJisRu6VPrv6mJSxvI.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=c6f6cdc95624df8ad130255fbcd0b881",
+        "width": 320, "height": 240}], "variants": {}, "id": "kdPeQPBJ-ByvLgxzNHTYYSWeEHHtx44fiEWBBJZpIus"}]},
+        "thumbnail": "http://b.thumbs.redditmedia.com/WcPzA1a3eFUdSmVZJX8BtErNLEMnKpFZHZYZRTtmcmY.jpg",
+        "subreddit_id": "t5_2qk72", "edited": false, "link_flair_css_class": null,
+        "author_flair_css_class": "um", "downs": 0, "mod_reports": [], "archived":
+        false, "media_embed": {"content": "&lt;iframe width=\"600\" height=\"338\"
+        src=\"https://www.youtube.com/embed/7EkycT2HoBY?feature=oembed\" frameborder=\"0\"
+        allowfullscreen&gt;&lt;/iframe&gt;", "width": 600, "scrolling": false, "height":
+        338}, "post_hint": "rich:video", "is_self": false, "hide_score": false, "spoiler":
+        false, "permalink": "/r/climbing/comments/5h3he8/made_a_short_on_barn_doors_when_they_happen_and_a/",
+        "locked": false, "stickied": false, "created": 1481183197.0, "url": "https://www.youtube.com/watch?v=7EkycT2HoBY",
+        "author_flair_text": "", "quarantine": false, "title": "Made a short on Barn
+        Doors: when they happen and a useful beginner cue to avoid them", "created_utc":
+        1481154397.0, "link_flair_text": null, "distinguished": null, "num_comments":
+        7, "visited": false, "num_reports": null, "ups": 12}}, {"kind": "t3", "data":
+        {"contest_mode": false, "banned_by": null, "domain": "i.reddituploads.com",
+        "subreddit": "climbing", "selftext_html": null, "selftext": "", "likes": null,
+        "suggested_sort": null, "user_reports": [], "secure_media": null, "saved":
+        false, "id": "5h51vf", "gilded": 0, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "Newphantom2", "media": null, "name": "t3_5h51vf",
+        "score": 5, "approved_by": null, "over_18": false, "removal_reason": null,
+        "hidden": false, "preview": {"images": [{"source": {"url": "https://i.redditmedia.com/2-0XHpF_968OUlDawBLcGdUbzByLsJoof3moCoB-oic.jpg?s=9560847b54768b1d3ac19344c2630dff",
+        "width": 1121, "height": 1536}, "resolutions": [{"url": "https://i.redditmedia.com/2-0XHpF_968OUlDawBLcGdUbzByLsJoof3moCoB-oic.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=5b4a0ecb6ceb85ce84a003f0c699b89f",
+        "width": 108, "height": 147}, {"url": "https://i.redditmedia.com/2-0XHpF_968OUlDawBLcGdUbzByLsJoof3moCoB-oic.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=69ad56a7a807d6f40016b612169a9d60",
+        "width": 216, "height": 295}, {"url": "https://i.redditmedia.com/2-0XHpF_968OUlDawBLcGdUbzByLsJoof3moCoB-oic.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=ca88a941960c1adf1c92f69bf70a91f4",
+        "width": 320, "height": 438}, {"url": "https://i.redditmedia.com/2-0XHpF_968OUlDawBLcGdUbzByLsJoof3moCoB-oic.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=6162df29c237a43d51e42bb8a861fe53",
+        "width": 640, "height": 876}, {"url": "https://i.redditmedia.com/2-0XHpF_968OUlDawBLcGdUbzByLsJoof3moCoB-oic.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=ed1bc7b24ebfcede75e149c276e86955",
+        "width": 960, "height": 1315}, {"url": "https://i.redditmedia.com/2-0XHpF_968OUlDawBLcGdUbzByLsJoof3moCoB-oic.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=1080&amp;s=2086275d05c23a3329d758e5fd3d6a29",
+        "width": 1080, "height": 1479}], "variants": {}, "id": "8zYMq-VesgF6n52aoeas-akmv5lX8CxGyHfGEXiFR8g"}]},
+        "thumbnail": "http://b.thumbs.redditmedia.com/iifUkLDqBSwfhoTI1J_UlkGwVN1_6a8WLzpA2oeDFNo.jpg",
+        "subreddit_id": "t5_2qk72", "edited": false, "link_flair_css_class": null,
+        "author_flair_css_class": null, "downs": 0, "mod_reports": [], "archived":
+        false, "media_embed": {}, "post_hint": "link", "is_self": false, "hide_score":
+        false, "spoiler": false, "permalink": "/r/climbing/comments/5h51vf/after_all_my_stuff_was_stolen_it_was_nice_to_get/",
+        "locked": false, "stickied": false, "created": 1481201721.0, "url": "https://i.reddituploads.com/c75af51e2ad54fe8afcbb0020d73bc01?fit=max&amp;h=1536&amp;w=1536&amp;s=0925aa2d5af9f8aace2d3d1d19fffb55",
+        "author_flair_text": null, "quarantine": false, "title": "After all my stuff
+        was stolen it was nice to get back after a while without climbing.", "created_utc":
+        1481172921.0, "link_flair_text": null, "distinguished": null, "num_comments":
+        6, "visited": false, "num_reports": null, "ups": 5}}, {"kind": "t3", "data":
+        {"contest_mode": false, "banned_by": null, "domain": "carolinaclimbers.org",
+        "subreddit": "climbing", "selftext_html": null, "selftext": "", "likes": null,
+        "suggested_sort": null, "user_reports": [], "secure_media": null, "saved":
+        false, "id": "5h2vc9", "gilded": 0, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "FreackInAMagnum", "media": null, "name":
+        "t3_5h2vc9", "score": 9, "approved_by": null, "over_18": false, "removal_reason":
+        null, "hidden": false, "preview": {"images": [{"source": {"url": "https://i.redditmedia.com/2lLC0zw4w23965GwvxgWTuiTbOcQhXIfPBaEF9GkfwU.jpg?s=0682524920e47acea195a5f67d2a2b28",
+        "width": 80, "height": 72}, "resolutions": [], "variants": {}, "id": "3OyvU-zWNdRd_EqOWcDhVyrSZV19PUV1amjbnLq0gsI"}]},
+        "thumbnail": "http://b.thumbs.redditmedia.com/r0pkqMBciL-PW50jgDB587FRvlE6t1OTL2prffCl7GA.jpg",
+        "subreddit_id": "t5_2qk72", "edited": false, "link_flair_css_class": null,
+        "author_flair_css_class": "northdakota", "downs": 0, "mod_reports": [], "archived":
+        false, "media_embed": {}, "post_hint": "link", "is_self": false, "hide_score":
+        false, "spoiler": false, "permalink": "/r/climbing/comments/5h2vc9/rumbling_bald_reopens_128_after_fire/",
+        "locked": false, "stickied": false, "created": 1481176858.0, "url": "https://carolinaclimbers.org/closures/partyrockfire.html",
+        "author_flair_text": "", "quarantine": false, "title": "Rumbling Bald reopens
+        12/8 after fire.", "created_utc": 1481148058.0, "link_flair_text": null, "distinguished":
+        null, "num_comments": 2, "visited": false, "num_reports": null, "ups": 9}},
+        {"kind": "t3", "data": {"contest_mode": false, "banned_by": null, "domain":
+        "self.climbing", "subreddit": "climbing", "selftext_html": "&lt;!-- SC_OFF
+        --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Recently i was at the Kaft boulders
+        in Vegas and there was a small group blasting some shitty loud music. They
+        were completely oblivious to the fact that 7 other groups of people were i  the
+        same area and had to listen to it. &lt;/p&gt;\n\n&lt;p&gt;This incident made
+        me wish there was a device that could disrupt electronic devices from afar.
+        Obviously that wouldnt be a great idea to use something like that (pace makers),
+        but it would be nicer than asking them to turn it off and risking a conflict.
+        &lt;/p&gt;\n\n&lt;p&gt;Such a device would also come in handy for drones ;)&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "Recently i was at the Kaft boulders in Vegas and
+        there was a small group blasting some shitty loud music. They were completely
+        oblivious to the fact that 7 other groups of people were i  the same area
+        and had to listen to it. \n\nThis incident made me wish there was a device
+        that could disrupt electronic devices from afar. Obviously that wouldnt be
+        a great idea to use something like that (pace makers), but it would be nicer
+        than asking them to turn it off and risking a conflict. \n\nSuch a device
+        would also come in handy for drones ;)", "likes": null, "suggested_sort":
+        null, "user_reports": [], "secure_media": null, "saved": false, "id": "5h738w",
+        "gilded": 0, "secure_media_embed": {}, "clicked": false, "report_reasons":
+        null, "author": "icky_tickler", "media": null, "name": "t3_5h738w", "score":
+        0, "approved_by": null, "over_18": false, "removal_reason": null, "hidden":
+        false, "thumbnail": "self", "subreddit_id": "t5_2qk72", "edited": false, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "mod_reports": [], "archived":
+        false, "media_embed": {}, "is_self": true, "hide_score": true, "spoiler":
+        false, "permalink": "/r/climbing/comments/5h738w/is_there_a_device_i_can_use_to_turn_off_someones/",
+        "locked": false, "stickied": false, "created": 1481234939.0, "url": "https://www.reddit.com/r/climbing/comments/5h738w/is_there_a_device_i_can_use_to_turn_off_someones/",
+        "author_flair_text": null, "quarantine": false, "title": "Is there a device
+        i can use to turn off someone''s music player at the crag (other than a hammer)",
+        "created_utc": 1481206139.0, "link_flair_text": null, "distinguished": null,
+        "num_comments": 5, "visited": false, "num_reports": null, "ups": 0}}, {"kind":
+        "t3", "data": {"contest_mode": false, "banned_by": null, "domain": "self.climbing",
+        "subreddit": "climbing", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I
+        just tweaked/pulled my ring finger tendon last night. Was a 3 finger open
+        grip and felt a sharp pain in my palm. I did a little research and i have
+        a feeling it&amp;#39;s the lumbrical of my ring and little finger. I have
+        a dull ache there now, but a sharp pain when I curl my little finger and pull
+        my ring finger back. Is there a way of telling it&amp;#39;s the tendon or
+        the lumbrical or does it it matter and is the treatment the same? I&amp;#39;ve
+        seen that most people say keep climbing and buddy tape with the little finger
+        for these kinds of open hand strains. Any advice, treatment or protocol would
+        be much appreciated. I&amp;#39;ve booked a doctors appointment next week with
+        a doc who usually ultrasounds injuries so hopefully I can see the severity
+        then.&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext": "I just tweaked/pulled
+        my ring finger tendon last night. Was a 3 finger open grip and felt a sharp
+        pain in my palm. I did a little research and i have a feeling it''s the lumbrical
+        of my ring and little finger. I have a dull ache there now, but a sharp pain
+        when I curl my little finger and pull my ring finger back. Is there a way
+        of telling it''s the tendon or the lumbrical or does it it matter and is the
+        treatment the same? I''ve seen that most people say keep climbing and buddy
+        tape with the little finger for these kinds of open hand strains. Any advice,
+        treatment or protocol would be much appreciated. I''ve booked a doctors appointment
+        next week with a doc who usually ultrasounds injuries so hopefully I can see
+        the severity then.", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "saved": false, "id": "5h5qi0", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "Tyranel", "media":
+        null, "name": "t3_5h5qi0", "score": 1, "approved_by": null, "over_18": false,
+        "removal_reason": null, "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2qk72", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "mod_reports": [], "archived": false, "media_embed": {},
+        "is_self": true, "hide_score": false, "spoiler": false, "permalink": "/r/climbing/comments/5h5qi0/pulled_my_finger_lumbricalflexor_last_night/",
+        "locked": false, "stickied": false, "created": 1481212128.0, "url": "https://www.reddit.com/r/climbing/comments/5h5qi0/pulled_my_finger_lumbricalflexor_last_night/",
+        "author_flair_text": null, "quarantine": false, "title": "Pulled my finger
+        Lumbrical/flexor last night", "created_utc": 1481183328.0, "link_flair_text":
+        null, "distinguished": null, "num_comments": 3, "visited": false, "num_reports":
+        null, "ups": 1}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by":
+        null, "domain": "youtube.com", "subreddit": "climbing", "selftext_html": null,
+        "selftext": "", "likes": null, "suggested_sort": null, "user_reports": [],
+        "secure_media": {"oembed": {"provider_url": "https://www.youtube.com/", "title":
+        "La Folia - Climbing au Qu\u00e9bec (FULL)", "html": "&lt;iframe width=\"600\"
+        height=\"338\" src=\"https://www.youtube.com/embed/Mw81MDDzTe8?feature=oembed\"
+        frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;", "thumbnail_width":
+        480, "height": 338, "width": 600, "version": "1.0", "author_name": "Mark Davidson
+        Jewell", "provider_name": "YouTube", "thumbnail_url": "https://i.ytimg.com/vi/Mw81MDDzTe8/hqdefault.jpg",
+        "type": "video", "thumbnail_height": 360, "author_url": "https://www.youtube.com/channel/UCudWxBUn8D9smstGxL8lSKg"},
+        "type": "youtube.com"}, "saved": false, "id": "5h2yth", "gilded": 0, "secure_media_embed":
+        {"content": "&lt;iframe width=\"600\" height=\"338\" src=\"https://www.youtube.com/embed/Mw81MDDzTe8?feature=oembed\"
+        frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;", "width": 600, "scrolling":
+        false, "height": 338}, "clicked": false, "report_reasons": null, "author":
+        "herbaldruid", "media": {"oembed": {"provider_url": "https://www.youtube.com/",
+        "title": "La Folia - Climbing au Qu\u00e9bec (FULL)", "html": "&lt;iframe
+        width=\"600\" height=\"338\" src=\"https://www.youtube.com/embed/Mw81MDDzTe8?feature=oembed\"
+        frameborder=\"0\" allowfullscreen&gt;&lt;/iframe&gt;", "thumbnail_width":
+        480, "height": 338, "width": 600, "version": "1.0", "author_name": "Mark Davidson
+        Jewell", "provider_name": "YouTube", "thumbnail_url": "https://i.ytimg.com/vi/Mw81MDDzTe8/hqdefault.jpg",
+        "type": "video", "thumbnail_height": 360, "author_url": "https://www.youtube.com/channel/UCudWxBUn8D9smstGxL8lSKg"},
+        "type": "youtube.com"}, "name": "t3_5h2yth", "score": 5, "approved_by": null,
+        "over_18": false, "removal_reason": null, "hidden": false, "preview": {"images":
+        [{"source": {"url": "https://i.redditmedia.com/M9G1PV4Btrxx6uEp87xw86rPGeeBsb-l_hZk47ol6xw.jpg?s=6979025b86ebfdccfd69c64cbb6d4d44",
+        "width": 480, "height": 360}, "resolutions": [{"url": "https://i.redditmedia.com/M9G1PV4Btrxx6uEp87xw86rPGeeBsb-l_hZk47ol6xw.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=47f88f502d1e60787f60c70173127006",
+        "width": 108, "height": 81}, {"url": "https://i.redditmedia.com/M9G1PV4Btrxx6uEp87xw86rPGeeBsb-l_hZk47ol6xw.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=a72b232d9b46bb91b8afa1549d6278c8",
+        "width": 216, "height": 162}, {"url": "https://i.redditmedia.com/M9G1PV4Btrxx6uEp87xw86rPGeeBsb-l_hZk47ol6xw.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=4e21f30f2b81fcc2ce0864789f8ce31e",
+        "width": 320, "height": 240}], "variants": {}, "id": "I1BJxlBjksmH-DLzF6Xn9u3Kahs4w11GslJAF6oTE9w"}]},
+        "thumbnail": "http://b.thumbs.redditmedia.com/cAY9diu1WylTQD6LFa6T6s1tBQkbj5kAVTq4mx2fyiQ.jpg",
+        "subreddit_id": "t5_2qk72", "edited": false, "link_flair_css_class": null,
+        "author_flair_css_class": null, "downs": 0, "mod_reports": [], "archived":
+        false, "media_embed": {"content": "&lt;iframe width=\"600\" height=\"338\"
+        src=\"https://www.youtube.com/embed/Mw81MDDzTe8?feature=oembed\" frameborder=\"0\"
+        allowfullscreen&gt;&lt;/iframe&gt;", "width": 600, "scrolling": false, "height":
+        338}, "post_hint": "rich:video", "is_self": false, "hide_score": false, "spoiler":
+        false, "permalink": "/r/climbing/comments/5h2yth/la_folia_climbing_au_qu\u00e9bec_full/",
+        "locked": false, "stickied": false, "created": 1481177782.0, "url": "https://www.youtube.com/watch?v=Mw81MDDzTe8",
+        "author_flair_text": null, "quarantine": false, "title": "La Folia - Climbing
+        au Qu\u00e9bec (FULL)", "created_utc": 1481148982.0, "link_flair_text": null,
+        "distinguished": null, "num_comments": 3, "visited": false, "num_reports":
+        null, "ups": 5}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by":
+        null, "domain": "ocregister.com", "subreddit": "climbing", "selftext_html":
+        null, "selftext": "", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "saved": false, "id": "5gxcab", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "Ahabraham", "media":
+        null, "name": "t3_5gxcab", "score": 164, "approved_by": null, "over_18": false,
+        "removal_reason": null, "hidden": false, "preview": {"images": [{"source":
+        {"url": "https://i.redditmedia.com/wd-AZNMUX6R9jEi15FrYePGTtl__J_tuuwczk0aviuA.jpg?s=a86f4df296c688f7ca3f9c7b2c938018",
+        "width": 560, "height": 420}, "resolutions": [{"url": "https://i.redditmedia.com/wd-AZNMUX6R9jEi15FrYePGTtl__J_tuuwczk0aviuA.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=ade0524a4948b7c0161d0a3961dd2cbc",
+        "width": 108, "height": 81}, {"url": "https://i.redditmedia.com/wd-AZNMUX6R9jEi15FrYePGTtl__J_tuuwczk0aviuA.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=db58a223d08691a343db3bea174a89a5",
+        "width": 216, "height": 162}, {"url": "https://i.redditmedia.com/wd-AZNMUX6R9jEi15FrYePGTtl__J_tuuwczk0aviuA.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=34355f592be8e25f0956fb9f5749734c",
+        "width": 320, "height": 240}], "variants": {}, "id": "4qeNa3GmAWoA3sPxJ_cs2FTp-qmixHSxOb2miFwaQJw"}]},
+        "thumbnail": "http://b.thumbs.redditmedia.com/9RUEUoG50OT5ep8I3cYDZgkZogLKewDLkRlXt_R2RfQ.jpg",
+        "subreddit_id": "t5_2qk72", "edited": false, "link_flair_css_class": null,
+        "author_flair_css_class": null, "downs": 0, "mod_reports": [], "archived":
+        false, "media_embed": {}, "post_hint": "link", "is_self": false, "hide_score":
+        false, "spoiler": false, "permalink": "/r/climbing/comments/5gxcab/police_mistake_climbing_chalk_for_a_dangerous/",
+        "locked": false, "stickied": false, "created": 1481107135.0, "url": "http://www.ocregister.com/articles/officers-737519-police-irvine.html",
+        "author_flair_text": null, "quarantine": false, "title": "Police mistake climbing
+        chalk for a dangerous substance while responding to a burglary.", "created_utc":
+        1481078335.0, "link_flair_text": null, "distinguished": null, "num_comments":
+        46, "visited": false, "num_reports": null, "ups": 164}}, {"kind": "t3", "data":
+        {"contest_mode": false, "banned_by": null, "domain": "i.reddituploads.com",
+        "subreddit": "climbing", "selftext_html": null, "selftext": "", "likes": null,
+        "suggested_sort": null, "user_reports": [], "secure_media": null, "saved":
+        false, "id": "5gv3kx", "gilded": 0, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "thegateclipper", "media": null, "name":
+        "t3_5gv3kx", "score": 346, "approved_by": null, "over_18": false, "removal_reason":
+        null, "hidden": false, "preview": {"images": [{"source": {"url": "https://i.redditmedia.com/WhYrmEVW9D02FitrDXLyrSe88qjKTD6mDu4tiJQCi8Y.jpg?s=b133da232cc5e81418b7f35f26cc7097",
+        "width": 1536, "height": 1536}, "resolutions": [{"url": "https://i.redditmedia.com/WhYrmEVW9D02FitrDXLyrSe88qjKTD6mDu4tiJQCi8Y.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=07713bccaf2e79ed4709b78927bbae93",
+        "width": 108, "height": 108}, {"url": "https://i.redditmedia.com/WhYrmEVW9D02FitrDXLyrSe88qjKTD6mDu4tiJQCi8Y.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=d59617a08841cc769cbbad46eeec0204",
+        "width": 216, "height": 216}, {"url": "https://i.redditmedia.com/WhYrmEVW9D02FitrDXLyrSe88qjKTD6mDu4tiJQCi8Y.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=86fcfd12478476fcd4122623873deab7",
+        "width": 320, "height": 320}, {"url": "https://i.redditmedia.com/WhYrmEVW9D02FitrDXLyrSe88qjKTD6mDu4tiJQCi8Y.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=496be05387a222638ec04d40f483c8df",
+        "width": 640, "height": 640}, {"url": "https://i.redditmedia.com/WhYrmEVW9D02FitrDXLyrSe88qjKTD6mDu4tiJQCi8Y.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=666ea010553c0f15ed5ffe671ebb8cd6",
+        "width": 960, "height": 960}, {"url": "https://i.redditmedia.com/WhYrmEVW9D02FitrDXLyrSe88qjKTD6mDu4tiJQCi8Y.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=1080&amp;s=042e29c294fbb04fc5f9b7f13671107f",
+        "width": 1080, "height": 1080}], "variants": {}, "id": "7jxcP5_2-T9q5FYU7dXmpckGgGM1WrisyNuYz7Oby-Q"}]},
+        "thumbnail": "http://b.thumbs.redditmedia.com/2_zSmZxZ6qeV5YkLy5cbsdTbPa4YQMgLZw_NdFRFKpM.jpg",
+        "subreddit_id": "t5_2qk72", "edited": false, "link_flair_css_class": null,
+        "author_flair_css_class": null, "downs": 0, "mod_reports": [], "archived":
+        false, "media_embed": {}, "post_hint": "link", "is_self": false, "hide_score":
+        false, "spoiler": false, "permalink": "/r/climbing/comments/5gv3kx/southern_sandstone/",
+        "locked": false, "stickied": false, "created": 1481083502.0, "url": "https://i.reddituploads.com/08d18400431740d99c2df184f4f116d4?fit=max&amp;h=1536&amp;w=1536&amp;s=8175c766eeb23d86594ddfea3ab06592",
+        "author_flair_text": null, "quarantine": false, "title": "Southern Sandstone",
+        "created_utc": 1481054702.0, "link_flair_text": null, "distinguished": null,
+        "num_comments": 49, "visited": false, "num_reports": null, "ups": 346}}, {"kind":
+        "t3", "data": {"contest_mode": false, "banned_by": null, "domain": "self.climbing",
+        "subreddit": "climbing", "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;It&amp;#39;s
+        been two years since &lt;a href=\"/u/WorldClassCactus\"&gt;/u/WorldClassCactus&lt;/a&gt;
+        posted &lt;a href=\"https://docs.google.com/spreadsheets/d/1J4Ce7nyumynpXu93l7BSg1n_VwdFX9IHjqkkD_V4-kA/edit?usp=sharing\"&gt;this
+        great spreadsheet&lt;/a&gt;.\n(&lt;a href=\"https://www.reddit.com/r/climbing/comments/2o5vzd/cam_size_comparison_chart_in_spreadsheet/\"&gt;original
+        post for reference&lt;/a&gt;)&lt;/p&gt;\n\n&lt;p&gt;I have been obsessed lately
+        with charting my rack and spending a ton of time trying to build an interactive
+        way to dynamically chart it online. Well, I&amp;#39;m giving up on that pipe
+        dream for now. During that process, I took what &lt;a href=\"/u/WorldClassCactus\"&gt;/u/WorldClassCactus&lt;/a&gt;
+        made and made a few updates. &lt;a href=\"https://docs.google.com/spreadsheets/d/1xSWclToFnK8smNdsrSsY-HMm0DSFtiF-HXsMvPVDYyQ/edit#gid=44491323\"&gt;Here
+        is the finished result&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;Changes:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Expanded
+        cam listings from 116 to 302 (Including current models and tons of older models)&lt;/li&gt;\n&lt;li&gt;Updated
+        all specs to also show ounces and inches for weights/ranges&lt;/li&gt;\n&lt;li&gt;Corrected
+        older model specs using manufacturer numbers (yay Archive.org!)&lt;/li&gt;\n&lt;li&gt;Removed
+        the chart tab unfortunately (sorry, no time to update that. Data only!)&lt;/li&gt;\n&lt;li&gt;Added
+        a generation column to sort out old or new&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;Download
+        to sort and move things around!&lt;/p&gt;\n\n&lt;p&gt;EDIT 1: Somehow I missed
+        Camp Ball Nuts. They have been added to the sheet!&lt;/p&gt;\n\n&lt;p&gt;EDIT
+        2: Added Climb-X X-tech cams&lt;/p&gt;\n\n&lt;p&gt;EDIT 3: Found and added
+        Wired Bliss cam specs&lt;/p&gt;\n\n&lt;p&gt;EDIT 4: Finished and added passive
+        protection tab. Renamed tabs to &amp;quot;Active Protection&amp;quot; and
+        &amp;quot;Passive Protection&amp;quot;. Renamed workbook to &lt;a href=\"https://docs.google.com/spreadsheets/d/1xSWclToFnK8smNdsrSsY-HMm0DSFtiF-HXsMvPVDYyQ/edit#gid=44491323\"&gt;&amp;quot;Active/Passive
+        Climbing Protection Database 2016&amp;quot;&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "It''s been two years since /u/WorldClassCactus
+        posted [this great spreadsheet](https://docs.google.com/spreadsheets/d/1J4Ce7nyumynpXu93l7BSg1n_VwdFX9IHjqkkD_V4-kA/edit?usp=sharing).\n([original
+        post for reference](https://www.reddit.com/r/climbing/comments/2o5vzd/cam_size_comparison_chart_in_spreadsheet/))\n\nI
+        have been obsessed lately with charting my rack and spending a ton of time
+        trying to build an interactive way to dynamically chart it online. Well, I''m
+        giving up on that pipe dream for now. During that process, I took what /u/WorldClassCactus
+        made and made a few updates. [Here is the finished result](https://docs.google.com/spreadsheets/d/1xSWclToFnK8smNdsrSsY-HMm0DSFtiF-HXsMvPVDYyQ/edit#gid=44491323)\n\nChanges:\n\n*
+        Expanded cam listings from 116 to 302 (Including current models and tons of
+        older models)\n* Updated all specs to also show ounces and inches for weights/ranges\n*
+        Corrected older model specs using manufacturer numbers (yay Archive.org!)\n*
+        Removed the chart tab unfortunately (sorry, no time to update that. Data only!)\n*
+        Added a generation column to sort out old or new\n\nDownload to sort and move
+        things around!\n\nEDIT 1: Somehow I missed Camp Ball Nuts. They have been
+        added to the sheet!\n\nEDIT 2: Added Climb-X X-tech cams\n\nEDIT 3: Found
+        and added Wired Bliss cam specs\n\nEDIT 4: Finished and added passive protection
+        tab. Renamed tabs to \"Active Protection\" and \"Passive Protection\". Renamed
+        workbook to [\"Active/Passive Climbing Protection Database 2016\"](https://docs.google.com/spreadsheets/d/1xSWclToFnK8smNdsrSsY-HMm0DSFtiF-HXsMvPVDYyQ/edit#gid=44491323)",
+        "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
+        null, "saved": false, "id": "5gyw1n", "gilded": 0, "secure_media_embed": {},
+        "clicked": false, "report_reasons": null, "author": "drjman", "media": null,
+        "name": "t3_5gyw1n", "score": 32, "approved_by": null, "over_18": false, "removal_reason":
+        null, "hidden": false, "preview": {"images": [{"source": {"url": "https://i.redditmedia.com/3zmERdjFBuTWG3XoJHyvPV9pFWOOjNVUN4XeeChXJPY.jpg?s=992fc9f3b7719ecc058005f84d3cb8c3",
+        "width": 1200, "height": 630}, "resolutions": [{"url": "https://i.redditmedia.com/3zmERdjFBuTWG3XoJHyvPV9pFWOOjNVUN4XeeChXJPY.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=30c2a58ddfe603c16cfe7919a511a2ee",
+        "width": 108, "height": 56}, {"url": "https://i.redditmedia.com/3zmERdjFBuTWG3XoJHyvPV9pFWOOjNVUN4XeeChXJPY.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=df1304d42a3f51b4a9e189170e78f225",
+        "width": 216, "height": 113}, {"url": "https://i.redditmedia.com/3zmERdjFBuTWG3XoJHyvPV9pFWOOjNVUN4XeeChXJPY.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=f4069ea06127d295b183cd72e85a3d74",
+        "width": 320, "height": 168}, {"url": "https://i.redditmedia.com/3zmERdjFBuTWG3XoJHyvPV9pFWOOjNVUN4XeeChXJPY.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=2f03cc0e7cb5282dac0290c00f122f0c",
+        "width": 640, "height": 336}, {"url": "https://i.redditmedia.com/3zmERdjFBuTWG3XoJHyvPV9pFWOOjNVUN4XeeChXJPY.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=a9290b88b33d2d121783e27527273487",
+        "width": 960, "height": 504}, {"url": "https://i.redditmedia.com/3zmERdjFBuTWG3XoJHyvPV9pFWOOjNVUN4XeeChXJPY.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=1080&amp;s=c995c489afeb5cb0d625fe805a083f8f",
+        "width": 1080, "height": 567}], "variants": {}, "id": "gQn3A3LM19Sgh09AomC7RV3hYS3eOIXNLAgoqig6VAw"}]},
+        "thumbnail": "self", "subreddit_id": "t5_2qk72", "edited": 1481181777.0, "link_flair_css_class":
+        null, "author_flair_css_class": null, "downs": 0, "mod_reports": [], "archived":
+        false, "media_embed": {}, "post_hint": "self", "is_self": true, "hide_score":
+        false, "spoiler": false, "permalink": "/r/climbing/comments/5gyw1n/updated_cam_size_comparison_spreadsheet/",
+        "locked": false, "stickied": false, "created": 1481129406.0, "url": "https://www.reddit.com/r/climbing/comments/5gyw1n/updated_cam_size_comparison_spreadsheet/",
+        "author_flair_text": null, "quarantine": false, "title": "Updated Cam Size
+        Comparison Spreadsheet", "created_utc": 1481100606.0, "link_flair_text": null,
+        "distinguished": null, "num_comments": 29, "visited": false, "num_reports":
+        null, "ups": 32}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by":
+        null, "domain": "i.reddituploads.com", "subreddit": "climbing", "selftext_html":
+        null, "selftext": "", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "saved": false, "id": "5gvddv", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "Mano_v0", "media":
+        null, "name": "t3_5gvddv", "score": 258, "approved_by": null, "over_18": false,
+        "removal_reason": null, "hidden": false, "preview": {"images": [{"source":
+        {"url": "https://i.redditmedia.com/h0Pz98cH9M4ZwUtt4DIqFPqEQsYA3xSej8oZGuGv-s0.jpg?s=7b53897f4d8cb38224c9069226cfd62d",
+        "width": 1152, "height": 1536}, "resolutions": [{"url": "https://i.redditmedia.com/h0Pz98cH9M4ZwUtt4DIqFPqEQsYA3xSej8oZGuGv-s0.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=10701cb0f55837523b68365f025c6516",
+        "width": 108, "height": 144}, {"url": "https://i.redditmedia.com/h0Pz98cH9M4ZwUtt4DIqFPqEQsYA3xSej8oZGuGv-s0.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=db8f26a61992a1075b0a36f8a543352a",
+        "width": 216, "height": 288}, {"url": "https://i.redditmedia.com/h0Pz98cH9M4ZwUtt4DIqFPqEQsYA3xSej8oZGuGv-s0.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=b4edec63b912764044877df8deb9562e",
+        "width": 320, "height": 426}, {"url": "https://i.redditmedia.com/h0Pz98cH9M4ZwUtt4DIqFPqEQsYA3xSej8oZGuGv-s0.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=9126f8dd1e16de6ff13b6791fc5c04f3",
+        "width": 640, "height": 853}, {"url": "https://i.redditmedia.com/h0Pz98cH9M4ZwUtt4DIqFPqEQsYA3xSej8oZGuGv-s0.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=49653a6bcd6bbe113d2b1b36a3b28526",
+        "width": 960, "height": 1280}, {"url": "https://i.redditmedia.com/h0Pz98cH9M4ZwUtt4DIqFPqEQsYA3xSej8oZGuGv-s0.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=1080&amp;s=399658486426f5ce371f06b34131bf91",
+        "width": 1080, "height": 1440}], "variants": {}, "id": "qd1s3K3LLFRGkXRPfEESTPsQMoywS_dbY95g2UiTvEc"}]},
+        "thumbnail": "http://b.thumbs.redditmedia.com/50A6v1Y1uUYaHZ1_cwNVEhP_qhTKtAKhxo1MZxBDvug.jpg",
+        "subreddit_id": "t5_2qk72", "edited": false, "link_flair_css_class": null,
+        "author_flair_css_class": null, "downs": 0, "mod_reports": [], "archived":
+        false, "media_embed": {}, "post_hint": "link", "is_self": false, "hide_score":
+        false, "spoiler": false, "permalink": "/r/climbing/comments/5gvddv/my_first_lead_climb_outdoors_at_the_blue_mountains/",
+        "locked": false, "stickied": false, "created": 1481086142.0, "url": "https://i.reddituploads.com/e9e5b70d3d9d410a86dc79634f159011?fit=max&amp;h=1536&amp;w=1536&amp;s=548c78fe8ba08ec1e7120118855fa74a",
+        "author_flair_text": null, "quarantine": false, "title": "My first lead climb
+        outdoors at the Blue Mountains", "created_utc": 1481057342.0, "link_flair_text":
+        null, "distinguished": null, "num_comments": 62, "visited": false, "num_reports":
+        null, "ups": 258}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by":
+        null, "domain": "self.climbing", "subreddit": "climbing", "selftext_html":
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;A little under 2 weeks
+        ago I injured myself bouldering.  It was on a pocket undercling that was about
+        waist height when I injured it.  I really only experience pain on it when
+        I try pulling something with my ring finger, like lifting a milk carton or
+        pulling on the back of a chair.  The pain is not &amp;quot;severe&amp;quot;
+        but its definitely moderate from time to time when testing my pain level.  I
+        went to the doctor and I was told to rest it for a week and take NSAID.  They
+        did an x-ray, no MRI, and said they couldn&amp;#39;t find any sort of structural
+        damage.  He took me through a series of grips and tested the pain in my finger.  He
+        said a tear was unlikely, since there was no swelling and no severe amounts
+        of pain.&lt;/p&gt;\n\n&lt;p&gt;When I do try and pull on something with my
+        ring finger and can induce the moderate pain, I feel it mostly in my wrist,
+        linearly down from my ring finger.  When I crimp a door way, I feel 0 pain.  This
+        is completely open-hand related pain isolated to using the ring finger.&lt;/p&gt;\n\n&lt;p&gt;Any
+        thoughts or people who have suffered a similar injury?&lt;/p&gt;\n\n&lt;p&gt;Edit:  Added
+        Photo of a position that induces pain.  Felt mostly in my wrist (on the same
+        side as my ring finger). &lt;a href=\"https://goo.gl/photos/XaFFgJFNP5PgW1qs6\"&gt;https://goo.gl/photos/XaFFgJFNP5PgW1qs6&lt;/a&gt;&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "A little under 2 weeks ago I injured myself bouldering.  It
+        was on a pocket undercling that was about waist height when I injured it.  I
+        really only experience pain on it when I try pulling something with my ring
+        finger, like lifting a milk carton or pulling on the back of a chair.  The
+        pain is not \"severe\" but its definitely moderate from time to time when
+        testing my pain level.  I went to the doctor and I was told to rest it for
+        a week and take NSAID.  They did an x-ray, no MRI, and said they couldn''t
+        find any sort of structural damage.  He took me through a series of grips
+        and tested the pain in my finger.  He said a tear was unlikely, since there
+        was no swelling and no severe amounts of pain.\n\nWhen I do try and pull on
+        something with my ring finger and can induce the moderate pain, I feel it
+        mostly in my wrist, linearly down from my ring finger.  When I crimp a door
+        way, I feel 0 pain.  This is completely open-hand related pain isolated to
+        using the ring finger.\n\nAny thoughts or people who have suffered a similar
+        injury?\n\n\nEdit:  Added Photo of a position that induces pain.  Felt mostly
+        in my wrist (on the same side as my ring finger). https://goo.gl/photos/XaFFgJFNP5PgW1qs6",
+        "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
+        null, "saved": false, "id": "5h0jlh", "gilded": 0, "secure_media_embed": {},
+        "clicked": false, "report_reasons": null, "author": "baffled88", "media":
+        null, "name": "t3_5h0jlh", "score": 7, "approved_by": null, "over_18": false,
+        "removal_reason": null, "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2qk72", "edited": 1481127105.0, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "mod_reports": [], "archived": false, "media_embed": {},
+        "is_self": true, "hide_score": false, "spoiler": false, "permalink": "/r/climbing/comments/5h0jlh/ring_finger_flexor_tendon_strain/",
+        "locked": false, "stickied": false, "created": 1481153999.0, "url": "https://www.reddit.com/r/climbing/comments/5h0jlh/ring_finger_flexor_tendon_strain/",
+        "author_flair_text": null, "quarantine": false, "title": "Ring Finger Flexor
+        Tendon Strain?", "created_utc": 1481125199.0, "link_flair_text": null, "distinguished":
+        null, "num_comments": 19, "visited": false, "num_reports": null, "ups": 7}},
+        {"kind": "t3", "data": {"contest_mode": false, "banned_by": null, "domain":
+        "i.imgur.com", "subreddit": "climbing", "selftext_html": null, "selftext":
+        "", "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
+        null, "saved": false, "id": "5h0s4z", "gilded": 0, "secure_media_embed": {},
+        "clicked": false, "report_reasons": null, "author": "FuckApathy", "media":
+        null, "name": "t3_5h0s4z", "score": 7, "approved_by": null, "over_18": false,
+        "removal_reason": null, "hidden": false, "preview": {"images": [{"source":
+        {"url": "https://i.redditmedia.com/YbEutz_hlG52jajzp9UvgejErtM5bJYZjWJOwQxsBqA.jpg?s=3bb4207f888baca5901f647fe45863b7",
+        "width": 1323, "height": 1764}, "resolutions": [{"url": "https://i.redditmedia.com/YbEutz_hlG52jajzp9UvgejErtM5bJYZjWJOwQxsBqA.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=108&amp;s=6443ca16502b1d5171a4db2bf592e42e",
+        "width": 108, "height": 144}, {"url": "https://i.redditmedia.com/YbEutz_hlG52jajzp9UvgejErtM5bJYZjWJOwQxsBqA.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=216&amp;s=d07ab7e1df52f017d9bfa25ac72347c9",
+        "width": 216, "height": 288}, {"url": "https://i.redditmedia.com/YbEutz_hlG52jajzp9UvgejErtM5bJYZjWJOwQxsBqA.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=320&amp;s=222d6d53b4637cdff533280c6e060e3b",
+        "width": 320, "height": 426}, {"url": "https://i.redditmedia.com/YbEutz_hlG52jajzp9UvgejErtM5bJYZjWJOwQxsBqA.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=640&amp;s=35b195b235fe0c7125b9d437259e6f0d",
+        "width": 640, "height": 853}, {"url": "https://i.redditmedia.com/YbEutz_hlG52jajzp9UvgejErtM5bJYZjWJOwQxsBqA.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=960&amp;s=755541b70bf73f6d4c0aeaa96fbc7198",
+        "width": 960, "height": 1280}, {"url": "https://i.redditmedia.com/YbEutz_hlG52jajzp9UvgejErtM5bJYZjWJOwQxsBqA.jpg?fit=crop&amp;crop=faces%2Centropy&amp;arh=2&amp;w=1080&amp;s=4fc5a0d6ef8967e070b40b0827fd96fe",
+        "width": 1080, "height": 1440}], "variants": {}, "id": "J0bbzHiC74KNLidPhqBehA8ibzuqwdBKFLBbErt3OiA"}]},
+        "thumbnail": "http://b.thumbs.redditmedia.com/bZc2m7UHa7N-B8RXM5--fqG8zvEt_roNkprScyOw3gM.jpg",
+        "subreddit_id": "t5_2qk72", "edited": false, "link_flair_css_class": null,
+        "author_flair_css_class": null, "downs": 0, "mod_reports": [], "archived":
+        false, "media_embed": {}, "post_hint": "image", "is_self": false, "hide_score":
+        false, "spoiler": false, "permalink": "/r/climbing/comments/5h0s4z/if_youd_like_to_send_it_please_hang_up_and_try/",
+        "locked": false, "stickied": false, "created": 1481156350.0, "url": "http://i.imgur.com/zQxvh35.jpg",
+        "author_flair_text": null, "quarantine": false, "title": "\"If you''d like
+        to send it, please hang up and try again...\"", "created_utc": 1481127550.0,
+        "link_flair_text": null, "distinguished": null, "num_comments": 3, "visited":
+        false, "num_reports": null, "ups": 7}}, {"kind": "t3", "data": {"contest_mode":
+        false, "banned_by": null, "domain": "self.climbing", "subreddit": "climbing",
+        "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I
+        started bouldering about 9 months.  I boulder about 90% indoor and have been
+        addicted every since that first day.  Have a few questions&lt;/p&gt;\n\n&lt;p&gt;What
+        is a good warm up for bouldering? \nStatic stretching?\nDo static stretching
+        before or after?&lt;/p&gt;\n\n&lt;p&gt;Other methods outside of stretching
+        to prevent injury?&lt;/p&gt;\n\n&lt;p&gt;General question: What can I do outside
+        of bouldering to help me improve? Someone told me to cross train.  &lt;/p&gt;\n\n&lt;p&gt;My
+        diet is absolutely horrible, I like to blame it on working 50+ hours a week
+        but I am just lazy in that area.&lt;br/&gt;\nWhat vitamins do you recommend
+        taking to help the healing process??&lt;/p&gt;\n\n&lt;p&gt;Aside from those
+        questions I was curious what type of pull up exercises are good to do?&lt;br/&gt;\nand
+        what about core workouts?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;", "selftext":
+        "I started bouldering about 9 months.  I boulder about 90% indoor and have
+        been addicted every since that first day.  Have a few questions\n\nWhat is
+        a good warm up for bouldering? \nStatic stretching?\nDo static stretching
+        before or after?\n\nOther methods outside of stretching to prevent injury?\n\nGeneral
+        question: What can I do outside of bouldering to help me improve? Someone
+        told me to cross train.  \n\nMy diet is absolutely horrible, I like to blame
+        it on working 50+ hours a week but I am just lazy in that area.  \nWhat vitamins
+        do you recommend taking to help the healing process??\n\nAside from those
+        questions I was curious what type of pull up exercises are good to do?  \nand
+        what about core workouts?\n", "likes": null, "suggested_sort": null, "user_reports":
+        [], "secure_media": null, "saved": false, "id": "5h45md", "gilded": 0, "secure_media_embed":
+        {}, "clicked": false, "report_reasons": null, "author": "KizaVrom", "media":
+        null, "name": "t3_5h45md", "score": 1, "approved_by": null, "over_18": false,
+        "removal_reason": null, "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2qk72", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "mod_reports": [], "archived": false, "media_embed": {},
+        "is_self": true, "hide_score": false, "spoiler": false, "permalink": "/r/climbing/comments/5h45md/couple_questions_regarding_warm_up/",
+        "locked": false, "stickied": false, "created": 1481190772.0, "url": "https://www.reddit.com/r/climbing/comments/5h45md/couple_questions_regarding_warm_up/",
+        "author_flair_text": null, "quarantine": false, "title": "Couple questions
+        regarding warm up.", "created_utc": 1481161972.0, "link_flair_text": null,
+        "distinguished": null, "num_comments": 6, "visited": false, "num_reports":
+        null, "ups": 1}}, {"kind": "t3", "data": {"contest_mode": false, "banned_by":
+        null, "domain": "self.climbing", "subreddit": "climbing", "selftext_html":
+        "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Hi All,\nI was bouldering
+        on Sunday at the Happy&amp;#39;s and was working a stout almost completely
+        vertical V6 (Mr. Witty if you know the place) and the first move I was trying
+        is a rock over onto a left foot that is almost even with the hands you use.
+        The foothold was a pocket with a sharp edge so the rock over was very bomber
+        and I was wearing my hiangles to get some extra crank in there. Once I fully
+        rocked over and was able to take my weight mostly off my hands I heard a very
+        loud popping noise. More similar to a joint cracking than the usual tendon
+        snap which I&amp;#39;ve heard before. Anyway the pain subsided quickly until
+        I started to walk again. It hurt to walk and every 100 or so steps I would
+        experience a similar popping sensation and then a flash of pain in the area.
+        The pain is very acute, a quarter sized area on the back side of left portion
+        of my left ankle bulb. I got x rays and there is no visible bone damage and
+        the doctor said if it&amp;#39;s a tendon injury it is vey minor because I
+        don&amp;#39;t have the usual bruising or any pain besides the very small area
+        on the ankle. She said I could have possibly dislocated it along with a couple
+        other things like the ligament snapping a weird piece of bone off. I don&amp;#39;t
+        know what happened but the popping sensation comes back when I weight my foot
+        after wearing a lace up ankle brace all day. Has anyone experienced something
+        similar or be able to recommend somewhere I could find more answers. If the
+        pain persists I&amp;#39;ll go back and get an ultra sound but I&amp;#39;m
+        looking for any answers before then! Thanks for any help&lt;/p&gt;\n&lt;/div&gt;&lt;!--
+        SC_ON --&gt;", "selftext": "Hi All,\nI was bouldering on Sunday at the Happy''s
+        and was working a stout almost completely vertical V6 (Mr. Witty if you know
+        the place) and the first move I was trying is a rock over onto a left foot
+        that is almost even with the hands you use. The foothold was a pocket with
+        a sharp edge so the rock over was very bomber and I was wearing my hiangles
+        to get some extra crank in there. Once I fully rocked over and was able to
+        take my weight mostly off my hands I heard a very loud popping noise. More
+        similar to a joint cracking than the usual tendon snap which I''ve heard before.
+        Anyway the pain subsided quickly until I started to walk again. It hurt to
+        walk and every 100 or so steps I would experience a similar popping sensation
+        and then a flash of pain in the area. The pain is very acute, a quarter sized
+        area on the back side of left portion of my left ankle bulb. I got x rays
+        and there is no visible bone damage and the doctor said if it''s a tendon
+        injury it is vey minor because I don''t have the usual bruising or any pain
+        besides the very small area on the ankle. She said I could have possibly dislocated
+        it along with a couple other things like the ligament snapping a weird piece
+        of bone off. I don''t know what happened but the popping sensation comes back
+        when I weight my foot after wearing a lace up ankle brace all day. Has anyone
+        experienced something similar or be able to recommend somewhere I could find
+        more answers. If the pain persists I''ll go back and get an ultra sound but
+        I''m looking for any answers before then! Thanks for any help", "likes": null,
+        "suggested_sort": null, "user_reports": [], "secure_media": null, "saved":
+        false, "id": "5h2gef", "gilded": 0, "secure_media_embed": {}, "clicked": false,
+        "report_reasons": null, "author": "skankzilla77", "media": null, "name": "t3_5h2gef",
+        "score": 2, "approved_by": null, "over_18": false, "removal_reason": null,
+        "hidden": false, "thumbnail": "self", "subreddit_id": "t5_2qk72", "edited":
+        false, "link_flair_css_class": null, "author_flair_css_class": null, "downs":
+        0, "mod_reports": [], "archived": false, "media_embed": {}, "is_self": true,
+        "hide_score": false, "spoiler": false, "permalink": "/r/climbing/comments/5h2gef/dislocated_ankle_rocking_over/",
+        "locked": false, "stickied": false, "created": 1481172792.0, "url": "https://www.reddit.com/r/climbing/comments/5h2gef/dislocated_ankle_rocking_over/",
+        "author_flair_text": null, "quarantine": false, "title": "Dislocated Ankle
+        rocking over?", "created_utc": 1481143992.0, "link_flair_text": null, "distinguished":
+        null, "num_comments": 8, "visited": false, "num_reports": null, "ups": 2}},
+        {"kind": "t3", "data": {"contest_mode": false, "banned_by": null, "domain":
+        "self.climbing", "subreddit": "climbing", "selftext_html": "&lt;!-- SC_OFF
+        --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Does anyone have any ideas for gag
+        gifts under $5 for climbers?&lt;/p&gt;\n&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+        "selftext": "Does anyone have any ideas for gag gifts under $5 for climbers?",
+        "likes": null, "suggested_sort": null, "user_reports": [], "secure_media":
+        null, "saved": false, "id": "5h2dzw", "gilded": 0, "secure_media_embed": {},
+        "clicked": false, "report_reasons": null, "author": "downstreamdangers", "media":
+        null, "name": "t3_5h2dzw", "score": 2, "approved_by": null, "over_18": false,
+        "removal_reason": null, "hidden": false, "thumbnail": "self", "subreddit_id":
+        "t5_2qk72", "edited": false, "link_flair_css_class": null, "author_flair_css_class":
+        null, "downs": 0, "mod_reports": [], "archived": false, "media_embed": {},
+        "is_self": true, "hide_score": false, "spoiler": false, "permalink": "/r/climbing/comments/5h2dzw/gag_gift/",
+        "locked": false, "stickied": false, "created": 1481172137.0, "url": "https://www.reddit.com/r/climbing/comments/5h2dzw/gag_gift/",
+        "author_flair_text": null, "quarantine": false, "title": "Gag Gift", "created_utc":
+        1481143337.0, "link_flair_text": null, "distinguished": null, "num_comments":
+        7, "visited": false, "num_reports": null, "ups": 2}}], "after": "t3_5h2dzw",
+        "before": null}}'
+    http_version: 
+  recorded_at: Thu, 08 Dec 2016 15:51:54 GMT
+recorded_with: VCR 3.0.3

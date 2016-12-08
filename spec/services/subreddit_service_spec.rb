@@ -5,7 +5,7 @@ describe RedditServices do
     it "returns all subreddits for logged in user" do
       VCR.use_cassette("#subreddits") do
 
-        subreddits = RedditServices.new(ENV['user_test_token2']).subreddits
+        subreddits = RedditServices.new(ENV['user_test_token']).subreddits
         subreddit = subreddits.first
 
         expect(subreddits).to be_an(Array)

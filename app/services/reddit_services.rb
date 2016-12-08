@@ -20,6 +20,12 @@ class RedditServices
     JSON.parse(response.body, symbolize_names: true)
   end
 
+  def self.top_posts(url)
+    response = Faraday.get("https://www.reddit.com#{url}.json")
+    posts = JSON.parse(response.body, symbolize_names: true)
+    posts[:data][:children]
+  end
+
   private
 
     def connection
