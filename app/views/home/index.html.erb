@@ -1,1 +1,8 @@
-home
+<div class="col-md-12">
+  <h2 style="text-align: center;">/r/all</h2>
+  <br>
+  <% @posts.each do |post| %>
+    <%= link_to "(#{post.ups}) #{post.title}", post.url %>
+    <br>
+  <% end %>
+</div>

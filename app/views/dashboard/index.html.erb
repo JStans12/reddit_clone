@@ -1,7 +1,17 @@
 <div class="col-md-4">
   <h2>My Subs</h2>
+  <br>
   <% @subreddits.each do |subreddit| %>
     <%=link_to subreddit, "/subreddit/#{subreddit}" %>
+    <br>
+  <% end %>
+</div>
+
+<div class="col-md-8">
+  <h2 style="text-align: center;">/r/all</h2>
+  <br>
+  <% @posts.each do |post| %>
+    <%= link_to "(#{post.ups}) #{post.title}", post.url %>
     <br>
   <% end %>
 </div>
